@@ -7,6 +7,7 @@
       {
         "price": 11822,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -43,6 +44,7 @@
       {
         "price": 2,
         "source": "peacekeeper",
+        "currency": 1,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -79,6 +81,7 @@
       {
         "price": 368,
         "source": "skier",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -89,6 +92,7 @@
       {
         "price": 7,
         "source": "peacekeeper",
+        "currency": 1,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -125,6 +129,7 @@
       {
         "price": 32,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -135,6 +140,7 @@
       {
         "price": 33,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -145,6 +151,7 @@
       {
         "price": 35,
         "source": "skier",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -181,6 +188,7 @@
       {
         "price": 818,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -217,6 +225,7 @@
       {
         "price": 91,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -253,6 +262,7 @@
       {
         "price": 68,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -263,6 +273,7 @@
       {
         "price": 70,
         "source": "mechanic",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -273,6 +284,7 @@
       {
         "price": 1,
         "source": "peacekeeper",
+        "currency": 1,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -309,6 +321,7 @@
       {
         "price": 415,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -370,6 +383,7 @@
       {
         "price": 641,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -410,6 +424,7 @@
       {
         "price": 38,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -446,6 +461,7 @@
       {
         "price": 72,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -482,6 +498,7 @@
       {
         "price": 159,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -518,6 +535,7 @@
       {
         "price": 46,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -554,6 +572,7 @@
       {
         "price": 93,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -594,6 +613,7 @@
       {
         "price": 63,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -630,6 +650,7 @@
       {
         "price": 44,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -666,6 +687,7 @@
       {
         "price": 87,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -683,6 +705,7 @@
       {
         "price": 9156,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -719,6 +742,7 @@
       {
         "price": 54,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -755,6 +779,7 @@
       {
         "price": 55,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -791,6 +816,7 @@
       {
         "price": 51,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -827,6 +853,7 @@
       {
         "price": 72,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -863,6 +890,7 @@
       {
         "price": 57,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -899,6 +927,7 @@
       {
         "price": 77,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -935,6 +964,7 @@
       {
         "price": 69,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -971,6 +1001,7 @@
       {
         "price": 71,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1007,6 +1038,7 @@
       {
         "price": 14,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1043,6 +1075,7 @@
       {
         "price": 121,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1079,6 +1112,7 @@
       {
         "price": 151,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1115,6 +1149,7 @@
       {
         "price": 56,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1151,6 +1186,7 @@
       {
         "price": 47,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1187,6 +1223,7 @@
       {
         "price": 43,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1223,6 +1260,7 @@
       {
         "price": 32,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1259,6 +1297,7 @@
       {
         "price": 24,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1295,6 +1334,7 @@
       {
         "price": 50,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1331,6 +1371,7 @@
       {
         "price": 73,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1367,6 +1408,7 @@
       {
         "price": 86,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1403,6 +1445,7 @@
       {
         "price": 165,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1439,6 +1482,7 @@
       {
         "price": 69,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1511,6 +1555,7 @@
       {
         "price": 236,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1547,6 +1592,7 @@
       {
         "price": 914,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1583,6 +1629,7 @@
       {
         "price": 59,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1593,6 +1640,7 @@
       {
         "price": 62,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1603,6 +1651,7 @@
       {
         "price": 65,
         "source": "skier",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1613,6 +1662,7 @@
       {
         "price": 1,
         "source": "peacekeeper",
+        "currency": 1,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1649,6 +1699,7 @@
       {
         "price": 52,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1659,6 +1710,7 @@
       {
         "price": 54,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1695,6 +1747,7 @@
       {
         "price": 319,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1712,6 +1765,7 @@
       {
         "price": 78,
         "source": "peacekeeper",
+        "currency": 1,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1752,6 +1806,7 @@
       {
         "price": 3,
         "source": "peacekeeper",
+        "currency": 1,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1788,6 +1843,7 @@
       {
         "price": 985,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1828,6 +1884,7 @@
       {
         "price": 73,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1864,6 +1921,7 @@
       {
         "price": 161,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1900,6 +1958,7 @@
       {
         "price": 63,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1936,6 +1995,7 @@
       {
         "price": 45,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1946,6 +2006,7 @@
       {
         "price": 51,
         "source": "skier",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1982,6 +2043,7 @@
       {
         "price": 69,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -2018,6 +2080,7 @@
       {
         "price": 60,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -2054,6 +2117,7 @@
       {
         "price": 2,
         "source": "peacekeeper",
+        "currency": 1,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -2090,6 +2154,7 @@
       {
         "price": 3,
         "source": "peacekeeper",
+        "currency": 1,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -2155,6 +2220,7 @@
       {
         "price": 2,
         "source": "peacekeeper",
+        "currency": 1,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -2191,6 +2257,7 @@
       {
         "price": 98,
         "source": "skier",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -2227,6 +2294,7 @@
       {
         "price": 61,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -2263,6 +2331,7 @@
       {
         "price": 857,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -2280,6 +2349,7 @@
       {
         "price": 7320,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -2316,6 +2386,7 @@
       {
         "price": 153,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -2352,6 +2423,7 @@
       {
         "price": 164,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -2388,6 +2460,7 @@
       {
         "price": 215,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -2424,6 +2497,7 @@
       {
         "price": 381,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -2441,6 +2515,7 @@
       {
         "price": 4745,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -2477,6 +2552,7 @@
       {
         "price": 26,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -2487,6 +2563,7 @@
       {
         "price": 28,
         "source": "skier",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -2523,6 +2600,7 @@
       {
         "price": 447,
         "source": "skier",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -2559,6 +2637,7 @@
       {
         "price": 19,
         "source": "peacekeeper",
+        "currency": 1,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -2599,6 +2678,7 @@
       {
         "price": 8,
         "source": "peacekeeper",
+        "currency": 1,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -2639,6 +2719,7 @@
       {
         "price": 3,
         "source": "peacekeeper",
+        "currency": 1,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -2675,6 +2756,7 @@
       {
         "price": 110,
         "source": "mechanic",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -2685,6 +2767,7 @@
       {
         "price": 2,
         "source": "peacekeeper",
+        "currency": 1,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -2695,6 +2778,7 @@
       {
         "price": 2,
         "source": "peacekeeper",
+        "currency": 1,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -2756,6 +2840,7 @@
       {
         "price": 282,
         "source": "mechanic",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -2892,6 +2977,7 @@
       {
         "price": 1292,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -2957,6 +3043,7 @@
       {
         "price": 73,
         "source": "mechanic",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -3018,6 +3105,7 @@
       {
         "price": 371,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -3054,6 +3142,7 @@
       {
         "price": 351,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -3090,6 +3179,7 @@
       {
         "price": 695,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -3130,6 +3220,7 @@
       {
         "price": 4,
         "source": "peacekeeper",
+        "currency": 1,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -3166,6 +3257,7 @@
       {
         "price": 2,
         "source": "peacekeeper",
+        "currency": 1,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -3202,6 +3294,7 @@
       {
         "price": 2,
         "source": "peacekeeper",
+        "currency": 1,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -3238,6 +3331,7 @@
       {
         "price": 2,
         "source": "peacekeeper",
+        "currency": 1,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -3274,6 +3368,7 @@
       {
         "price": 2,
         "source": "peacekeeper",
+        "currency": 1,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -3310,6 +3405,7 @@
       {
         "price": 277,
         "source": "mechanic",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -3350,6 +3446,7 @@
       {
         "price": 209,
         "source": "mechanic",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -3392,6 +3489,7 @@
       {
         "price": 37,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -3428,6 +3526,7 @@
       {
         "price": 41,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -3464,6 +3563,7 @@
       {
         "price": 53,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -3500,6 +3600,7 @@
       {
         "price": 70,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -3536,6 +3637,7 @@
       {
         "price": 54,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -3572,6 +3674,7 @@
       {
         "price": 72,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -3608,6 +3711,7 @@
       {
         "price": 367,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -3644,6 +3748,7 @@
       {
         "price": 87,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -3680,6 +3785,7 @@
       {
         "price": 131,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -3716,6 +3822,7 @@
       {
         "price": 202,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -3752,6 +3859,7 @@
       {
         "price": 72,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -3788,6 +3896,7 @@
       {
         "price": 75,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -3824,6 +3933,7 @@
       {
         "price": 79,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -3860,6 +3970,7 @@
       {
         "price": 21,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -3896,6 +4007,7 @@
       {
         "price": 32,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -3932,6 +4044,7 @@
       {
         "price": 40,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -3968,6 +4081,7 @@
       {
         "price": 86,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -4004,6 +4118,7 @@
       {
         "price": 69,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -4040,6 +4155,7 @@
       {
         "price": 51,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -4076,6 +4192,7 @@
       {
         "price": 189,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -4137,6 +4254,7 @@
       {
         "price": 258,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -4173,6 +4291,7 @@
       {
         "price": 1057,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -4238,6 +4357,7 @@
       {
         "price": 158,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -4274,6 +4394,7 @@
       {
         "price": 116,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -4310,6 +4431,7 @@
       {
         "price": 336,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -4358,6 +4480,7 @@
       {
         "price": 1,
         "source": "peacekeeper",
+        "currency": 1,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -4394,6 +4517,7 @@
       {
         "price": 86,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -4430,6 +4554,7 @@
       {
         "price": 2618,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -4466,6 +4591,7 @@
       {
         "price": 280,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -4502,6 +4628,7 @@
       {
         "price": 391,
         "source": "mechanic",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -4588,6 +4715,7 @@
       {
         "price": 314,
         "source": "peacekeeper",
+        "currency": 1,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -4699,6 +4827,7 @@
       {
         "price": 4,
         "source": "peacekeeper",
+        "currency": 1,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -4735,6 +4864,7 @@
       {
         "price": 1,
         "source": "peacekeeper",
+        "currency": 1,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -4796,6 +4926,7 @@
       {
         "price": 2,
         "source": "peacekeeper",
+        "currency": 1,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -4832,6 +4963,7 @@
       {
         "price": 2,
         "source": "peacekeeper",
+        "currency": 1,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -4868,6 +5000,7 @@
       {
         "price": 519,
         "source": "mechanic",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -4929,6 +5062,7 @@
       {
         "price": 105,
         "source": "prapor",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -4965,6 +5099,7 @@
       {
         "price": 91,
         "source": "skier",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -5001,6 +5136,7 @@
       {
         "price": 17,
         "source": "peacekeeper",
+        "currency": 1,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -5062,6 +5198,7 @@
       {
         "price": 1417,
         "source": "mechanic",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -5102,6 +5239,7 @@
       {
         "price": 788,
         "source": "jaeger",
+        "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -5138,6 +5276,7 @@
       {
         "price": 6,
         "source": "peacekeeper",
+        "currency": 1,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -5174,6 +5313,7 @@
       {
         "price": 3,
         "source": "peacekeeper",
+        "currency": 1,
         "requirements": [
           {
             "type": "loyaltyLevel",

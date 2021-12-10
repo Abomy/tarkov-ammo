@@ -18,5 +18,6 @@ export interface ItemsByType {
 export interface BuyFor {
   price: number;
   source: string;
+  currency: string;
   requirements: Requirement[];
 }

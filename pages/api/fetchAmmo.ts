@@ -9,7 +9,6 @@ var fs = require("fs");
 const traders = ["prapor", "mechanic", "skier", "jaeger", "peacekeeper"];
 
 const ballisticsFile = "./public/ballistics.json";
-const ballisticsInfo = JSON.parse(fs.readFileSync(ballisticsFile));
 const ballisticsUrl =
   "https://raw.githubusercontent.com/TarkovTracker/tarkovdata/master/ammunition.json";
 
@@ -22,6 +21,7 @@ const query = gql`
       buyFor {
         price
         source
+        currency
         requirements {
           type
           value
@@ -35,7 +35,7 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse<string>
 ) {
-  await fetchBallistics();
+  var ballistics = await fetchBallistics();
 
   await request("https://tarkov-tools.com/graphql", query).then((data) => {
     var ammo = [] as Ammo[];
@@ -45,10 +45,19 @@ export default async function handler(
         id: item.id,
         name: item.name,
         image: item.gridImageLink,
-        ...ballisticsInfo[item.id],
-        trades: item.buyFor?.filter((trade) => {
-          return traders.includes(trade.source);
-        }),
+        ...ballistics[item.id],
+        trades: item.buyFor
+          ?.filter((trade) => {
+            return traders.includes(trade.source);
+          })
+          .map((trade) => {
+            return {
+              price: trade.price,
+              source: trade.source,
+              currency: convertCurrency(trade.currency),
+              requirements: trade.requirements,
+            };
+          }),
       });
     });
 
@@ -57,10 +66,19 @@ export default async function handler(
   });
 }
 
+const currency = ["RUB", "USD"];
+function convertCurrency(value: string): number {
+  return currency.includes(value) ? currency.indexOf(value) : -1;
+}
 async function fetchBallistics() {
   var res = await fetch(ballisticsUrl);
   var ballistics = await res.json();
 
-  if (ballistics)
+  if (ballistics) {
     fs.writeFile(ballisticsFile, JSON.stringify(ballistics, null, 2));
+  } else {
+    ballistics = JSON.parse(fs.readFileSync(ballisticsFile));
+  }
+
+  return ballistics;
 }

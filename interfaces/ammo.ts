@@ -5,7 +5,7 @@ export interface Ammo {
   trades: Trade[];
   shortName?: number | string;
   weight?: number;
-  caliber?: string;
+  caliber: string;
   stackMaxSize?: number;
   tracer?: boolean;
   tracerColor?: string;
@@ -34,5 +34,6 @@ export interface Requirement {
 export interface Trade {
   price: number;
   source: string;
+  currency: number;
   requirements: Requirement[];
 }

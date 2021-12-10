@@ -1,12 +1,6 @@
 import React from "react";
 import { Ammo } from "../interfaces/ammo";
-import Card, {
-  TitleContainer,
-  Image,
-  Title,
-  Date,
-  Description,
-} from "./Card/Card.styled";
+import Card, { TitleContainer, Image, Title } from "./Card/Card.styled";
 import Trade, { Traders } from "./Trade";
 
 interface Props {
