@@ -14,11 +14,12 @@ const StyledContainer = styled.div`
   flex-direction: column;
 `;
 
-export const Title = styled.h2`
-  word-break: keep-all;
+export const Title = styled.div`
+  text-align: center;
   color: #fff;
-  font-weight: 300;
+  font-weight: 600;
   padding-left: 0.8rem;
+  font-size: 1.2rem;
   @media (max-width: 500px) {
     font-size: 1rem;
   }

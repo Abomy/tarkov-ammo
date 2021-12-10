@@ -14,9 +14,12 @@ export async function getStaticProps() {
   };
 }
 
+const ammoFilter = ["bullet", "buckshot"];
 export default function Home({ Ammo }: AmmoProps) {
   ///remove ammo that doesnt have a seller
-  Ammo = Ammo.filter((ammo) => ammo.trades.length != 0);
+  Ammo = Ammo.filter(
+    (ammo) => ammo.trades.length != 0 && ammoFilter.includes(ammo.ammoType)
+  );
   Ammo = Ammo.sort((a, b) => (a.caliber > b.caliber ? 1 : -1));
 
   return (
