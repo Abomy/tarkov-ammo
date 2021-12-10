@@ -39,7 +39,18 @@
       "recoil": 0,
       "initialSpeed": 922
     },
-    "trades": []
+    "trades": [
+      {
+        "price": 2,
+        "source": "peacekeeper",
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 1
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "54527ac44bdc2d36668b4567",
@@ -68,6 +79,16 @@
       {
         "price": 368,
         "source": "skier",
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "price": 7,
+        "source": "peacekeeper",
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -242,6 +263,16 @@
       {
         "price": 70,
         "source": "mechanic",
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "price": 1,
+        "source": "peacekeeper",
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1578,6 +1609,16 @@
             "value": 1
           }
         ]
+      },
+      {
+        "price": 1,
+        "source": "peacekeeper",
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 1
+          }
+        ]
       }
     ]
   },
@@ -1667,7 +1708,22 @@
     "id": "58d3db5386f77426186285a0",
     "name": "M67 Hand grenade",
     "image": "https://assets.tarkov-tools.com/58d3db5386f77426186285a0-grid-image.jpg",
-    "trades": []
+    "trades": [
+      {
+        "price": 78,
+        "source": "peacekeeper",
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 1
+          },
+          {
+            "type": "questCompleted",
+            "value": 1
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "58dd3ad986f77403051cba8f",
@@ -1692,7 +1748,18 @@
       "recoil": 0,
       "initialSpeed": 833
     },
-    "trades": []
+    "trades": [
+      {
+        "price": 3,
+        "source": "peacekeeper",
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 2
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "59e0d99486f7744a32234762",
@@ -1983,7 +2050,18 @@
       "recoil": -2,
       "initialSpeed": 874
     },
-    "trades": []
+    "trades": [
+      {
+        "price": 2,
+        "source": "peacekeeper",
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 1
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "59e6906286f7746c9f75e847",
@@ -2008,7 +2086,22 @@
       "recoil": 4,
       "initialSpeed": 940
     },
-    "trades": []
+    "trades": [
+      {
+        "price": 3,
+        "source": "peacekeeper",
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 1
+          },
+          {
+            "type": "questCompleted",
+            "value": 1
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "59e690b686f7746c9f75e848",
@@ -2058,7 +2151,18 @@
       "recoil": 0,
       "initialSpeed": 936
     },
-    "trades": []
+    "trades": [
+      {
+        "price": 2,
+        "source": "peacekeeper",
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 2
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "59e6920f86f77411d82aa167",
@@ -2451,7 +2555,22 @@
       "recoil": 10,
       "initialSpeed": 849
     },
-    "trades": []
+    "trades": [
+      {
+        "price": 19,
+        "source": "peacekeeper",
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 1
+          },
+          {
+            "type": "questCompleted",
+            "value": 1
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "5a608bf24f39f98ffc77720e",
@@ -2476,7 +2595,22 @@
       "recoil": -5,
       "initialSpeed": 816
     },
-    "trades": []
+    "trades": [
+      {
+        "price": 8,
+        "source": "peacekeeper",
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 1
+          },
+          {
+            "type": "questCompleted",
+            "value": 1
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "5ba2678ad4351e44f824b344",
@@ -2501,7 +2635,18 @@
       "recoil": 0,
       "initialSpeed": 620
     },
-    "trades": []
+    "trades": [
+      {
+        "price": 3,
+        "source": "peacekeeper",
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 3
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "5ba26812d4351e003201fef1",
@@ -2534,6 +2679,26 @@
           {
             "type": "loyaltyLevel",
             "value": 1
+          }
+        ]
+      },
+      {
+        "price": 2,
+        "source": "peacekeeper",
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "price": 2,
+        "source": "peacekeeper",
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 2
           }
         ]
       }
@@ -2961,7 +3126,18 @@
       "recoil": 0,
       "initialSpeed": 716
     },
-    "trades": []
+    "trades": [
+      {
+        "price": 4,
+        "source": "peacekeeper",
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 3
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "5cc80f53e4a949000e1ea4f8",
@@ -2986,7 +3162,18 @@
       "recoil": 0,
       "initialSpeed": 716
     },
-    "trades": []
+    "trades": [
+      {
+        "price": 2,
+        "source": "peacekeeper",
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 3
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "5cc80f67e4a949035e43bbba",
@@ -3011,7 +3198,18 @@
       "recoil": -20,
       "initialSpeed": 305
     },
-    "trades": []
+    "trades": [
+      {
+        "price": 2,
+        "source": "peacekeeper",
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 3
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "5cc80f79e4a949033c7343b2",
@@ -3036,7 +3234,18 @@
       "recoil": 0,
       "initialSpeed": 792
     },
-    "trades": []
+    "trades": [
+      {
+        "price": 2,
+        "source": "peacekeeper",
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 3
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "5cc80f8fe4a949033b0224a2",
@@ -3061,7 +3270,18 @@
       "recoil": 0,
       "initialSpeed": 594
     },
-    "trades": []
+    "trades": [
+      {
+        "price": 2,
+        "source": "peacekeeper",
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 2
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "5cc86832d7f00c000d3a6e6c",
@@ -4134,7 +4354,18 @@
       "recoil": 0,
       "initialSpeed": 285
     },
-    "trades": []
+    "trades": [
+      {
+        "price": 1,
+        "source": "peacekeeper",
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 1
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "5e85a9a6eacf8c039e4e2ac1",
@@ -4353,7 +4584,18 @@
       "recoil": 0,
       "initialSpeed": 76
     },
-    "trades": []
+    "trades": [
+      {
+        "price": 314,
+        "source": "peacekeeper",
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 4
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "5ede475339ee016e8c534742",
@@ -4453,7 +4695,18 @@
       "recoil": 7,
       "initialSpeed": 299
     },
-    "trades": []
+    "trades": [
+      {
+        "price": 4,
+        "source": "peacekeeper",
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 3
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "5efb0d4f4bc50b58e81710f3",
@@ -4478,7 +4731,18 @@
       "recoil": 0,
       "initialSpeed": 290
     },
-    "trades": []
+    "trades": [
+      {
+        "price": 1,
+        "source": "peacekeeper",
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 2
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "5efb0da7a29a85116f6ea05f",
@@ -4528,7 +4792,18 @@
       "recoil": 10,
       "initialSpeed": 290
     },
-    "trades": []
+    "trades": [
+      {
+        "price": 2,
+        "source": "peacekeeper",
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 2
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "5efb0fc6aeb21837e749c801",
@@ -4553,7 +4828,18 @@
       "recoil": 0,
       "initialSpeed": 274
     },
-    "trades": []
+    "trades": [
+      {
+        "price": 2,
+        "source": "peacekeeper",
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 3
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "5f0596629e22f464da6bbdd9",
@@ -4711,7 +4997,18 @@
       "recoil": 0,
       "initialSpeed": 900
     },
-    "trades": []
+    "trades": [
+      {
+        "price": 17,
+        "source": "peacekeeper",
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 4
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "5fc382a9d724d907e2077dab",
@@ -4837,7 +5134,18 @@
       "recoil": 5,
       "initialSpeed": 720
     },
-    "trades": []
+    "trades": [
+      {
+        "price": 6,
+        "source": "peacekeeper",
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 4
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "60194943740c5d77f6705eea",
@@ -4862,7 +5170,18 @@
       "recoil": 0,
       "initialSpeed": 902
     },
-    "trades": []
+    "trades": [
+      {
+        "price": 3,
+        "source": "peacekeeper",
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 3
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "601949593ae8f707c4608daa",

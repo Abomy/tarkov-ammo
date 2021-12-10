@@ -6,7 +6,7 @@ const fetch = require("node-fetch");
 var fs = require("fs");
 
 //Only traders of use
-const traders = ["prapor", "mechanic", "skier", "jaeger"];
+const traders = ["prapor", "mechanic", "skier", "jaeger", "peacekeeper"];
 
 const ballisticsFile = "./public/ballistics.json";
 const ballisticsInfo = JSON.parse(fs.readFileSync(ballisticsFile));
