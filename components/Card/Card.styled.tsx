@@ -22,23 +22,6 @@ export const Title = styled.h2`
   }
 `;
 
-export const Date = styled.div`
-  color: #ccc;
-  font-weight: 300;
-  margin: 6px 0;
-  @media (max-width: 500px) {
-    font-size: 0.8rem;
-  }
-`;
-
-export const Description = styled.p`
-  color: #fff;
-  font-weight: 300;
-  @media (max-width: 500px) {
-    font-size: 0.75rem;
-  }
-`;
-
 export const TitleContainer = styled.div`
   display: flex;
 `;

@@ -1,8 +1,5 @@
-import type { NextPage } from "next";
 import { Ammo } from "../interfaces/ammo";
 import AmmoList from "../public/ammo.json";
-import Image from "next/image";
-import Card from "../components/Card/Card.styled";
 import AmmoCard from "../components/AmmoCard";
 
 interface AmmoProps {

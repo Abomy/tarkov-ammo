@@ -3,7 +3,6 @@ import { Trade } from "../interfaces/ammo";
 import Image from "next/image";
 
 export const Traders = styled.div`
-  right: 0px;
   display: flex;
   justify-content: end;
 `;
@@ -23,14 +22,12 @@ const ToolTip = styled.span`
   /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
-
   transition: opacity 300ms;
 `;
 
 const Trader = styled.div`
   color: #fff;
   margin-top: 0.5rem;
-  text-transform: capitalize;
 `;
 
 const Container = styled.div`
@@ -42,10 +39,6 @@ const Container = styled.div`
       opacity: 1;
     }
   }
-`;
-const TextContainer = styled(Container)`
-  flex-direction: column;
-  padding-left: 0.8rem;
 `;
 
 const StyledImage = styled(Image)`

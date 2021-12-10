@@ -4,14 +4,14 @@ export interface Ammo {
   image?: string;
   trades: Trade[];
   shortName?: number | string;
-  weight?: number;
+  weight: number;
   caliber: string;
-  stackMaxSize?: number;
-  tracer?: boolean;
-  tracerColor?: string;
-  ammoType?: string;
-  projectileCount?: number;
-  ballistics?: Ballistics;
+  stackMaxSize: number;
+  tracer: boolean;
+  tracerColor: string;
+  ammoType: string;
+  projectileCount: number;
+  ballistics: Ballistics;
 }
 
 export interface Ballistics {
