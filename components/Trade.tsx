@@ -5,6 +5,8 @@ import Image from "next/image";
 export const Traders = styled.div`
   display: flex;
   justify-content: end;
+  padding-top: 1rem;
+  margin-top: auto;
 `;
 
 const ToolTip = styled.span`
