@@ -3,7 +3,7 @@ export interface Ammo {
   name: string;
   image?: string;
   trades: Trade[];
-  shortName?: number | string;
+  shortName: string;
   weight: number;
   caliber: string;
   stackMaxSize: number;
