@@ -25,9 +25,7 @@ const AmmoCard = ({ data }: Props) => (
     </TitleContainer>
     <Spacer />
     <InfoContainer>
-      <InfoRow>
-        {data.caliber && "Caliber:" + data.caliber.split("Caliber").join(" ")}
-      </InfoRow>
+      <InfoRow>{data.caliber && "Caliber: " + data.caliber}</InfoRow>
       <InfoRow>
         Tracer:
         {data.tracer ? " True" : " False"}{" "}

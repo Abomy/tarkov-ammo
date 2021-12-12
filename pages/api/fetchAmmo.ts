@@ -64,7 +64,8 @@ export default async function handler(
     const fixedAmmo = ammo.map((item: Ammo) => {
       return {
         ...item,
-        caliber: item.caliber?.split("Caliber")[1] || "",
+        // caliber: item.caliber?.split("Caliber")[1] || "",
+        caliber: item.name.replace(item.shortName, "").trimEnd(),
       };
     });
 
