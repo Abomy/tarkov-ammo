@@ -13,6 +13,10 @@ export const SearchBox = styled.input`
   background: #123149;
   padding-left: 15px;
   color: #fff;
+  outline: none;
+  :focus {
+    border: 1px solid rgb(255, 255, 255, 1);
+  }
 `;
 
 export const SearchIcon = styled.div`

@@ -20,11 +20,7 @@ const Container = styled.div`
   padding: 0.5rem;
 `;
 
-interface NavProps {
-  children?: any;
-}
-
-const Nav = ({ children }: NavProps) => {
+const Nav = () => {
   const { query, setQuery } = useContext(SearchContext);
   return (
     <Container>

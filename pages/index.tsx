@@ -8,28 +8,29 @@ interface AmmoProps {
   Ammo: Ammo[];
 }
 
+const ammoFilter = ["bullet", "buckshot"];
 export async function getStaticProps() {
+  const ammo = AmmoList as Ammo[];
+  const filterAmmo = ammo
+    .filter(
+      (ammo) => ammo.trades.length != 0 && ammoFilter.includes(ammo.ammoType)
+    )
+    .sort((a, b) => (a.caliber > b.caliber ? 1 : -1));
   return {
     props: {
-      Ammo: AmmoList,
+      Ammo: filterAmmo,
     },
   };
 }
 
-const ammoFilter = ["bullet", "buckshot"];
 export default function Home({ Ammo }: AmmoProps) {
   const search = useContext(SearchContext);
-  ///remove ammo that doesnt have a seller
-  Ammo = Ammo.filter(
-    (ammo) => ammo.trades.length != 0 && ammoFilter.includes(ammo.ammoType)
-  );
-  Ammo = Ammo.sort((a, b) => (a.caliber > b.caliber ? 1 : -1));
 
-  Ammo = filterBySearch(search.query, Ammo);
+  const filteredAmmo = filterBySearch(search.query, Ammo);
 
   return (
     <div className="cards">
-      {Ammo?.map((item) => {
+      {filteredAmmo.map((item) => {
         return <AmmoCard key={item.id} data={item} />;
       })}
     </div>
@@ -38,8 +39,8 @@ export default function Home({ Ammo }: AmmoProps) {
 
 function filterBySearch(query: string, ammo: Ammo[]): Ammo[] {
   if (query != "") {
-    query = query.toLowerCase();
-    ammo = ammo.filter((bullet) => bullet.name.toLowerCase().includes(query));
+    const lower = query.toLowerCase();
+    return ammo.filter((bullet) => bullet.name.toLowerCase().includes(lower));
   }
 
   return ammo;

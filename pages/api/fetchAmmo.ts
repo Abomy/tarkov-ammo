@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 import { request, gql } from "graphql-request";
-import { Ammo } from "../../interfaces/ammo";
+import { Ammo, Trade } from "../../interfaces/ammo";
 import { ItemsByType } from "../../interfaces/ammoRequest";
 const fetch = require("node-fetch");
 var fs = require("fs");
@@ -38,7 +38,7 @@ export default async function handler(
   var ballistics = await fetchBallistics();
 
   await request("https://tarkov-tools.com/graphql", query).then((data) => {
-    var ammo = [] as Ammo[];
+    const ammo = [] as Ammo[];
 
     data.itemsByType.map((item: ItemsByType) => {
       ammo.push({
@@ -61,9 +61,56 @@ export default async function handler(
       });
     });
 
-    fs.writeFile("./public/ammo.json", JSON.stringify(ammo, null, 2));
+    const fixedAmmo = ammo.map((item: Ammo) => {
+      return {
+        ...item,
+        caliber: item.caliber?.split("Caliber")[1] || "",
+      };
+    });
+
+    fs.writeFile(
+      "./public/ammo.json",
+      JSON.stringify(removeDuplicateTrades(fixedAmmo), null, 2)
+    );
     res.status(200).json("Done");
   });
+}
+
+function removeDuplicateTrades(Ammo: Ammo[]): Ammo[] {
+  const newAmmoSet = Ammo.map((ammo) => {
+    const trades = ammo.trades.reduce((prev, trader) => {
+      const prevTrader = prev.find(
+        (prevTrade) => prevTrade.source === trader.source
+      );
+
+      if (prevTrader) {
+        const prevLevelReq = prevTrader.requirements.find(
+          (req) => req.type === "loyaltyLevel"
+        );
+        const currLevelReq = trader.requirements.find(
+          (req) => req.type === "loyaltyLevel"
+        );
+        // Somethings horribly wrong with data point skip!
+        if (!prevLevelReq || !currLevelReq) {
+          return prev;
+        }
+
+        if (prevLevelReq.value < currLevelReq.value) {
+          return prev;
+        }
+        return [...prev.filter((item) => item.source != trader.source), trader];
+      }
+
+      return [...prev, trader];
+    }, new Array<Trade>());
+
+    return {
+      ...ammo,
+      trades,
+    };
+  });
+
+  return newAmmoSet;
 }
 
 const currency = ["RUB", "USD"];
@@ -71,13 +118,13 @@ function convertCurrency(value: string): number {
   return currency.includes(value) ? currency.indexOf(value) : -1;
 }
 async function fetchBallistics() {
-  var res = await fetch(ballisticsUrl);
-  var ballistics = await res.json();
+  const res = await fetch(ballisticsUrl);
+  const ballistics = await res.json();
 
   if (ballistics) {
     fs.writeFile(ballisticsFile, JSON.stringify(ballistics, null, 2));
   } else {
-    ballistics = JSON.parse(fs.readFileSync(ballisticsFile));
+    return JSON.parse(fs.readFileSync(ballisticsFile));
   }
 
   return ballistics;
