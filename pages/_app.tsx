@@ -5,17 +5,11 @@ import SearchContext from "../context/searchContext";
 import { useState } from "react";
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const search = {
-    query: "",
-  };
-
   const [query, updateQuery] = useState("");
-  function setQuery(value: string) {
-    updateQuery(value);
-  }
+
   return (
     <>
-      <SearchContext.Provider value={{ query, setQuery }}>
+      <SearchContext.Provider value={{ query, onQueryChange: updateQuery }}>
         <Nav></Nav>
         <Component {...pageProps} />
       </SearchContext.Provider>

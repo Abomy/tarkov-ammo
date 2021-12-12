@@ -5,7 +5,7 @@ import {
   SearchIcon,
 } from "./Fields/SearchBox.styled";
 import { FaSearch } from "react-icons/fa";
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import SearchContext from "../context/searchContext";
 
 const Container = styled.div`
@@ -25,11 +25,14 @@ interface NavProps {
 }
 
 const Nav = ({ children }: NavProps) => {
-  const { query, setQuery } = useContext(SearchContext);
+  const { query, onQueryChange } = useContext(SearchContext);
   return (
     <Container>
       <SearchContainer>
-        <SearchBox value={query} onChange={(e) => setQuery(e.target.value)} />
+        <SearchBox
+          value={query}
+          onChange={(e) => onQueryChange(e.target.value)}
+        />
 
         <SearchIcon>
           <FaSearch color="grey" />
