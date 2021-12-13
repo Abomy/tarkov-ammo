@@ -7,3 +7,4 @@ Simple tool for corrolating ammunition data from tarkov tools graphql and ballis
 Currently only one endpoint avaliable:
 
 - {host}/api/fetchAmmo - compiles the ammunition data from both sources
+- {host}/api/fetchWeapons - fetches the weapon list with name / image
