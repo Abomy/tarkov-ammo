@@ -12,7 +12,7 @@ export interface ItemsByType {
   id: string;
   name: string;
   gridImageLink: string;
-  buyFor: BuyFor[];
+  buyFor?: BuyFor[];
 }
 
 export interface BuyFor {
