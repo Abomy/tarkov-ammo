@@ -7,6 +7,46 @@ var fs = require("fs");
 
 //Only traders of use
 const traders = ["prapor", "mechanic", "skier", "jaeger", "peacekeeper"];
+const caliberAlias = {
+  ".338": [".338 Lapua Magnum"],
+  ".300": [".300 AAC Blackout"],
+  ".366": [".366 TKM"],
+  ".45 ACP": [
+    ".45 ACP FMJ",
+    ".45 ACP Hydra-Shok",
+    ".45 ACP Match",
+    ".45 ACP  FMJ",
+  ],
+  "12/70": [
+    "12/70  Buckshot",
+    "12/70  buckshot",
+    "12/70 Custom Lite Slug",
+    "12/70  Custom Lite Slug",
+    "12/70 Slug",
+    "12/70  Slug",
+    '12/70 "" Slug',
+    "12/70 Dual Sabot Slug",
+    "12/70 Copper Sabot Premier HP Slug",
+    "12/70 8.5mm  buckshot",
+    "12/70 6.5mm  buckshot",
+    "12/70 SuperFormance HP Slug",
+    "12/70 makeshift  slug",
+    "12/70 Lead slug",
+  ],
+  "20/70": ["20/70  Buckshot", "20/70 Slug", '20/70 "" slug', "20/70 Star"],
+  "23x75mm": [
+    '23x75mm "" flashbang round',
+    '23x75mm "" slug',
+    '23x75mm "Shrapnel-10" buckshot',
+    '23x75mm "Shrapnel-25" buckshot',
+  ],
+  "5.56x45mm": ["5.56x45mm MK 255 Mod 0 ()", "5.56x45mm MK 318 Mod 0 ()"],
+  "7.62x25": ["7.62x25mm TT"],
+  "7.62x39mm": ["7.62x39mm gzh"],
+  "7.62x51mm": ["7.62x51mm Tracer"],
+  "7.62x54mm": ["7.62x54mm R"],
+  "9x18mm": ["9x18mm PM", "9x18mm PMM"],
+} as { [key: string]: string[] };
 
 const ballisticsFile = "./public/ballistics.json";
 const ballisticsUrl =
@@ -62,10 +102,13 @@ export default async function handler(
     });
 
     const fixedAmmo = ammo.map((item: Ammo) => {
+      const dirtyCaliber = item.name.replace(item.shortName, "").trimEnd();
+      const cleanCaliber = findCleanCaliber(dirtyCaliber);
       return {
         ...item,
         // caliber: item.caliber?.split("Caliber")[1] || "",
-        caliber: item.name.replace(item.shortName, "").trimEnd(),
+        tracerColor: item.tracer ? item.tracerColor.replace("tracer", "") : "",
+        caliber: cleanCaliber,
       };
     });
 
@@ -75,6 +118,17 @@ export default async function handler(
     );
     res.status(200).json("Done");
   });
+}
+function findCleanCaliber(dirty: string): string {
+  for (const key in caliberAlias) {
+    if (
+      Object.prototype.hasOwnProperty.call(caliberAlias, key) &&
+      caliberAlias[key].includes(dirty)
+    ) {
+      return key;
+    }
+  }
+  return dirty;
 }
 
 function removeDuplicateTrades(Ammo: Ammo[]): Ammo[] {
