@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const SearchContainer = styled.div`
   display: inline;
-  width: 30vw;
+  width: 100%;
   position: relative;
 `;
 export const SearchBox = styled.input`

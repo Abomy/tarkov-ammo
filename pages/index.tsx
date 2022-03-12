@@ -35,11 +35,11 @@ export default function Home({ Ammo, Weapons }: AmmoProps) {
 
   return (
     <>
-      <div className="cards">
+      {/* <div className="cards">
         {Weapons.map((item) => {
           return <WeaponCard key={item.id} data={item} />;
         })}
-      </div>
+      </div> */}
       <div className="cards">
         {filteredAmmo.map((item) => {
           return <AmmoCard key={item.id} data={item} />;

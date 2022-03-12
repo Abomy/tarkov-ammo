@@ -81,7 +81,7 @@
     },
     "trades": [
       {
-        "price": 368,
+        "price": 526,
         "source": "skier",
         "currency": 0,
         "requirements": [
@@ -92,7 +92,7 @@
         ]
       },
       {
-        "price": 7,
+        "price": 6,
         "source": "peacekeeper",
         "currency": 1,
         "requirements": [
@@ -140,17 +140,6 @@
         ]
       },
       {
-        "price": 33,
-        "source": "prapor",
-        "currency": 0,
-        "requirements": [
-          {
-            "type": "loyaltyLevel",
-            "value": 1
-          }
-        ]
-      },
-      {
         "price": 35,
         "source": "skier",
         "currency": 0,
@@ -167,9 +156,9 @@
     "id": "560d61e84bdc2da74d8b4571",
     "name": "7.62x54mm R SNB gzh",
     "image": "https://assets.tarkov-tools.com/560d61e84bdc2da74d8b4571-grid-image.jpg",
-    "shortName": "SNB gzh",
+    "shortName": "SNB",
     "weight": 0.024,
-    "caliber": "7.62x54mm",
+    "caliber": "7.62x54mm R  gzh",
     "stackMaxSize": 40,
     "tracer": false,
     "tracerColor": "",
@@ -188,7 +177,7 @@
     },
     "trades": [
       {
-        "price": 818,
+        "price": 1092,
         "source": "prapor",
         "currency": 0,
         "requirements": [
@@ -204,9 +193,9 @@
     "id": "5656d7c34bdc2d9d198b4587",
     "name": "7.62x39mm PS gzh",
     "image": "https://assets.tarkov-tools.com/5656d7c34bdc2d9d198b4587-grid-image.jpg",
-    "shortName": "PS gzh",
+    "shortName": "PS",
     "weight": 0.016,
-    "caliber": "7.62x39mm",
+    "caliber": "7.62x39mm  gzh",
     "stackMaxSize": 60,
     "tracer": false,
     "tracerColor": "",
@@ -225,7 +214,7 @@
     },
     "trades": [
       {
-        "price": 91,
+        "price": 95,
         "source": "prapor",
         "currency": 0,
         "requirements": [
@@ -241,9 +230,9 @@
     "id": "56d59d3ad2720bdb418b4577",
     "name": "9x19mm Pst gzh",
     "image": "https://assets.tarkov-tools.com/56d59d3ad2720bdb418b4577-grid-image.jpg",
-    "shortName": "Pst gzh",
+    "shortName": "Pst",
     "weight": 0.005,
-    "caliber": "9x19mm",
+    "caliber": "9x19mm  gzh",
     "stackMaxSize": 50,
     "tracer": false,
     "tracerColor": "",
@@ -262,7 +251,7 @@
     },
     "trades": [
       {
-        "price": 68,
+        "price": 71,
         "source": "prapor",
         "currency": 0,
         "requirements": [
@@ -300,9 +289,9 @@
     "id": "56dfef82d2720bbd668b4567",
     "name": "5.45x39mm BP gs",
     "image": "https://assets.tarkov-tools.com/56dfef82d2720bbd668b4567-grid-image.jpg",
-    "shortName": "BP gs",
+    "shortName": "BP",
     "weight": 0.01,
-    "caliber": "5.45x39mm",
+    "caliber": "5.45x39mm  gs",
     "stackMaxSize": 60,
     "tracer": false,
     "tracerColor": "",
@@ -321,7 +310,7 @@
     },
     "trades": [
       {
-        "price": 415,
+        "price": 443,
         "source": "prapor",
         "currency": 0,
         "requirements": [
@@ -337,9 +326,9 @@
     "id": "56dff026d2720bb8668b4567",
     "name": "5.45x39mm BS gs",
     "image": "https://assets.tarkov-tools.com/56dff026d2720bb8668b4567-grid-image.jpg",
-    "shortName": "BS gs",
+    "shortName": "BS",
     "weight": 0.01,
-    "caliber": "5.45x39mm",
+    "caliber": "5.45x39mm  gs",
     "stackMaxSize": 60,
     "tracer": false,
     "tracerColor": "",
@@ -362,9 +351,9 @@
     "id": "56dff061d2720bb5668b4567",
     "name": "5.45x39mm BT gs",
     "image": "https://assets.tarkov-tools.com/56dff061d2720bb5668b4567-grid-image.jpg",
-    "shortName": "BT gs",
+    "shortName": "BT",
     "weight": 0.01,
-    "caliber": "5.45x39mm",
+    "caliber": "5.45x39mm  gs",
     "stackMaxSize": 60,
     "tracer": true,
     "tracerColor": "Red",
@@ -383,7 +372,7 @@
     },
     "trades": [
       {
-        "price": 641,
+        "price": 694,
         "source": "prapor",
         "currency": 0,
         "requirements": [
@@ -393,7 +382,7 @@
           },
           {
             "type": "questCompleted",
-            "value": 1
+            "value": 16
           }
         ]
       }
@@ -477,9 +466,9 @@
     "id": "56dff2ced2720bb4668b4567",
     "name": "5.45x39mm PP gs",
     "image": "https://assets.tarkov-tools.com/56dff2ced2720bb4668b4567-grid-image.jpg",
-    "shortName": "PP gs",
+    "shortName": "PP",
     "weight": 0.01,
-    "caliber": "5.45x39mm",
+    "caliber": "5.45x39mm  gs",
     "stackMaxSize": 60,
     "tracer": false,
     "tracerColor": "",
@@ -494,7 +483,7 @@
       "penetrationPower": 33,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 890
+      "initialSpeed": 886
     },
     "trades": [
       {
@@ -514,9 +503,9 @@
     "id": "56dff338d2720bbd668b4569",
     "name": "5.45x39mm PRS gs",
     "image": "https://assets.tarkov-tools.com/56dff338d2720bbd668b4569-grid-image.jpg",
-    "shortName": "PRS gs",
+    "shortName": "PRS",
     "weight": 0.01,
-    "caliber": "5.45x39mm",
+    "caliber": "5.45x39mm  gs",
     "stackMaxSize": 60,
     "tracer": false,
     "tracerColor": "",
@@ -531,7 +520,7 @@
       "penetrationPower": 14,
       "accuracy": 0,
       "recoil": -5,
-      "initialSpeed": 890
+      "initialSpeed": 866
     },
     "trades": [
       {
@@ -551,9 +540,9 @@
     "id": "56dff3afd2720bba668b4567",
     "name": "5.45x39mm PS gs",
     "image": "https://assets.tarkov-tools.com/56dff3afd2720bba668b4567-grid-image.jpg",
-    "shortName": "PS gs",
+    "shortName": "PS",
     "weight": 0.01,
-    "caliber": "5.45x39mm",
+    "caliber": "5.45x39mm  gs",
     "stackMaxSize": 60,
     "tracer": false,
     "tracerColor": "",
@@ -582,7 +571,7 @@
           },
           {
             "type": "questCompleted",
-            "value": 1
+            "value": 3
           }
         ]
       }
@@ -629,9 +618,9 @@
     "id": "56dff4a2d2720bbd668b456a",
     "name": "5.45x39mm T gs",
     "image": "https://assets.tarkov-tools.com/56dff4a2d2720bbd668b456a-grid-image.jpg",
-    "shortName": "T gs",
+    "shortName": "T",
     "weight": 0.01,
-    "caliber": "5.45x39mm",
+    "caliber": "5.45x39mm  gs",
     "stackMaxSize": 60,
     "tracer": true,
     "tracerColor": "Red",
@@ -666,9 +655,9 @@
     "id": "56dff4ecd2720b5f5a8b4568",
     "name": "5.45x39mm US gs",
     "image": "https://assets.tarkov-tools.com/56dff4ecd2720b5f5a8b4568-grid-image.jpg",
-    "shortName": "US gs",
+    "shortName": "US",
     "weight": 0.01,
-    "caliber": "5.45x39mm",
+    "caliber": "5.45x39mm  gs",
     "stackMaxSize": 60,
     "tracer": false,
     "tracerColor": "",
@@ -711,7 +700,7 @@
         "requirements": [
           {
             "type": "loyaltyLevel",
-            "value": 3
+            "value": 2
           }
         ]
       }
@@ -871,9 +860,9 @@
     "id": "5736026a245977644601dc61",
     "name": "7.62x25mm TT P gl",
     "image": "https://assets.tarkov-tools.com/5736026a245977644601dc61-grid-image.jpg",
-    "shortName": "P gl",
+    "shortName": "P",
     "weight": 0.01,
-    "caliber": "7.62x25",
+    "caliber": "7.62x25mm TT  gl",
     "stackMaxSize": 50,
     "tracer": false,
     "tracerColor": "",
@@ -908,9 +897,9 @@
     "id": "573603562459776430731618",
     "name": "7.62x25mm TT Pst gzh",
     "image": "https://assets.tarkov-tools.com/573603562459776430731618-grid-image.jpg",
-    "shortName": "Pst gzh",
+    "shortName": "Pst",
     "weight": 0.01,
-    "caliber": "7.62x25",
+    "caliber": "7.62x25mm TT  gzh",
     "stackMaxSize": 50,
     "tracer": false,
     "tracerColor": "",
@@ -945,9 +934,9 @@
     "id": "573603c924597764442bd9cb",
     "name": "7.62x25mm TT PT gzh",
     "image": "https://assets.tarkov-tools.com/573603c924597764442bd9cb-grid-image.jpg",
-    "shortName": "PT gzh",
+    "shortName": "PT",
     "weight": 0.01,
-    "caliber": "7.62x25",
+    "caliber": "7.62x25mm TT  gzh",
     "stackMaxSize": 50,
     "tracer": true,
     "tracerColor": "Red",
@@ -982,9 +971,9 @@
     "id": "573718ba2459775a75491131",
     "name": "9x18mm PM BZhT gzh",
     "image": "https://assets.tarkov-tools.com/573718ba2459775a75491131-grid-image.jpg",
-    "shortName": "BZhT gzh",
+    "shortName": "BZhT",
     "weight": 0.01,
-    "caliber": "9x18mm",
+    "caliber": "9x18mm PM  gzh",
     "stackMaxSize": 50,
     "tracer": false,
     "tracerColor": "",
@@ -1019,9 +1008,9 @@
     "id": "573719762459775a626ccbc1",
     "name": "9x18mm PM P gzh",
     "image": "https://assets.tarkov-tools.com/573719762459775a626ccbc1-grid-image.jpg",
-    "shortName": "P gzh",
+    "shortName": "P",
     "weight": 0.011,
-    "caliber": "9x18mm",
+    "caliber": "9x18mm M P gzh",
     "stackMaxSize": 50,
     "tracer": false,
     "tracerColor": "",
@@ -1056,9 +1045,9 @@
     "id": "573719df2459775a626ccbc2",
     "name": "9x18mm PM PBM gzh",
     "image": "https://assets.tarkov-tools.com/573719df2459775a626ccbc2-grid-image.jpg",
-    "shortName": "PBM gzh",
+    "shortName": "PBM",
     "weight": 0.007,
-    "caliber": "9x18mm",
+    "caliber": "9x18mm PM  gzh",
     "stackMaxSize": 50,
     "tracer": false,
     "tracerColor": "",
@@ -1093,9 +1082,9 @@
     "id": "57371aab2459775a77142f22",
     "name": "9x18mm PMM PstM gzh",
     "image": "https://assets.tarkov-tools.com/57371aab2459775a77142f22-grid-image.jpg",
-    "shortName": "PstM gzh",
+    "shortName": "PstM",
     "weight": 0.009,
-    "caliber": "9x18mm",
+    "caliber": "9x18mm PMM  gzh",
     "stackMaxSize": 50,
     "tracer": false,
     "tracerColor": "",
@@ -1128,11 +1117,11 @@
   },
   {
     "id": "57371b192459775a9f58a5e0",
-    "name": "9x18mm PM PPe gzh",
+    "name": "9x18mm PM Ppe gzh",
     "image": "https://assets.tarkov-tools.com/57371b192459775a9f58a5e0-grid-image.jpg",
-    "shortName": "PPe gzh",
+    "shortName": "Ppe",
     "weight": 0.009,
-    "caliber": "9x18mm",
+    "caliber": "9x18mm PM  gzh",
     "stackMaxSize": 50,
     "tracer": false,
     "tracerColor": "",
@@ -1167,9 +1156,9 @@
     "id": "57371e4124597760ff7b25f1",
     "name": "9x18mm PM PPT gzh",
     "image": "https://assets.tarkov-tools.com/57371e4124597760ff7b25f1-grid-image.jpg",
-    "shortName": "PPT gzh",
+    "shortName": "PPT",
     "weight": 0.01,
-    "caliber": "9x18mm",
+    "caliber": "9x18mm PM  gzh",
     "stackMaxSize": 50,
     "tracer": true,
     "tracerColor": "red",
@@ -1204,9 +1193,9 @@
     "id": "57371eb62459776125652ac1",
     "name": "9x18mm PM PRS gs",
     "image": "https://assets.tarkov-tools.com/57371eb62459776125652ac1-grid-image.jpg",
-    "shortName": "PRS gs",
+    "shortName": "PRS",
     "weight": 0.011,
-    "caliber": "9x18mm",
+    "caliber": "9x18mm PM  gs",
     "stackMaxSize": 50,
     "tracer": false,
     "tracerColor": "",
@@ -1241,9 +1230,9 @@
     "id": "57371f2b24597761224311f1",
     "name": "9x18mm PM PS gs PPO",
     "image": "https://assets.tarkov-tools.com/57371f2b24597761224311f1-grid-image.jpg",
-    "shortName": "PS gs PPO",
+    "shortName": "PS PPO",
     "weight": 0.01,
-    "caliber": "9x18mm",
+    "caliber": "9x18mm PM PS gs PPO",
     "stackMaxSize": 50,
     "tracer": false,
     "tracerColor": "",
@@ -1278,9 +1267,9 @@
     "id": "57371f8d24597761006c6a81",
     "name": "9x18mm PM PSO gzh",
     "image": "https://assets.tarkov-tools.com/57371f8d24597761006c6a81-grid-image.jpg",
-    "shortName": "PSO gzh",
+    "shortName": "PSO",
     "weight": 0.008,
-    "caliber": "9x18mm",
+    "caliber": "9x18mm PM  gzh",
     "stackMaxSize": 50,
     "tracer": false,
     "tracerColor": "",
@@ -1315,9 +1304,9 @@
     "id": "5737201124597760fc4431f1",
     "name": "9x18mm PM Pst gzh",
     "image": "https://assets.tarkov-tools.com/5737201124597760fc4431f1-grid-image.jpg",
-    "shortName": "Pst gzh",
+    "shortName": "Pst",
     "weight": 0.01,
-    "caliber": "9x18mm",
+    "caliber": "9x18mm PM  gzh",
     "stackMaxSize": 50,
     "tracer": false,
     "tracerColor": "",
@@ -1389,9 +1378,9 @@
     "id": "573720e02459776143012541",
     "name": "9x18mm PM RG028 gzh",
     "image": "https://assets.tarkov-tools.com/573720e02459776143012541-grid-image.jpg",
-    "shortName": "RG028 gzh",
+    "shortName": "RG028",
     "weight": 0.011,
-    "caliber": "9x18mm",
+    "caliber": "9x18mm PM  gzh",
     "stackMaxSize": 50,
     "tracer": false,
     "tracerColor": "",
@@ -1426,9 +1415,9 @@
     "id": "57372140245977611f70ee91",
     "name": "9x18mm PM SP7 gzh",
     "image": "https://assets.tarkov-tools.com/57372140245977611f70ee91-grid-image.jpg",
-    "shortName": "SP7 gzh",
+    "shortName": "SP7",
     "weight": 0.011,
-    "caliber": "9x18mm",
+    "caliber": "9x18mm PM  gzh",
     "stackMaxSize": 50,
     "tracer": false,
     "tracerColor": "",
@@ -1463,9 +1452,9 @@
     "id": "5737218f245977612125ba51",
     "name": "9x18mm PM SP8 gzh",
     "image": "https://assets.tarkov-tools.com/5737218f245977612125ba51-grid-image.jpg",
-    "shortName": "SP8 gzh",
+    "shortName": "SP8",
     "weight": 0.009,
-    "caliber": "9x18mm",
+    "caliber": "9x18mm PM  gzh",
     "stackMaxSize": 50,
     "tracer": false,
     "tracerColor": "",
@@ -1498,59 +1487,43 @@
   },
   {
     "id": "5737292724597765e5728562",
-    "name": "5.45x39 BP gs 120 pcs. ammo pack",
+    "name": "5.45x39mm BP gs ammo pack (120 pcs)",
     "image": "https://assets.tarkov-tools.com/5737292724597765e5728562-grid-image.jpg",
     "trades": [],
     "tracerColor": "",
-    "caliber": "5.45x39 BP gs 120 pcs. ammo pack"
+    "caliber": "5.45x39mm BP gs ammo pack (120 pcs)"
   },
   {
     "id": "57372a7f24597766fe0de0c1",
-    "name": "5.45x39 BP gs 120 pcs. ammo pack",
+    "name": "5.45x39mm BP gs ammo pack (120 pcs)",
     "image": null,
     "trades": [],
     "tracerColor": "",
-    "caliber": "5.45x39 BP gs 120 pcs. ammo pack"
-  },
-  {
-    "id": "57372b832459776701014e41",
-    "name": "5.45x39 BS gs 120 pcs. ammo pack",
-    "image": null,
-    "trades": [],
-    "tracerColor": "",
-    "caliber": "5.45x39 BS gs 120 pcs. ammo pack"
-  },
-  {
-    "id": "57372bad245977670b7cd242",
-    "name": "5.45x39 BS gs 120 pcs. ammo pack",
-    "image": null,
-    "trades": [],
-    "tracerColor": "",
-    "caliber": "5.45x39 BS gs 120 pcs. ammo pack"
+    "caliber": "5.45x39mm BP gs ammo pack (120 pcs)"
   },
   {
     "id": "57372c21245977670937c6c2",
-    "name": "5.45x39 BT gs 120 pcs. ammo pack",
+    "name": "5.45x39mm BT gs ammo pack (120 pcs)",
     "image": "https://assets.tarkov-tools.com/57372c21245977670937c6c2-grid-image.jpg",
     "trades": [],
     "tracerColor": "",
-    "caliber": "5.45x39 BT gs 120 pcs. ammo pack"
+    "caliber": "5.45x39mm BT gs ammo pack (120 pcs)"
   },
   {
     "id": "57372c56245977685e584582",
-    "name": "5.45x39 BT gs 120 pcs. ammo pack",
+    "name": "5.45x39mm BT gs ammo pack (120 pcs)",
     "image": null,
     "trades": [],
     "tracerColor": "",
-    "caliber": "5.45x39 BT gs 120 pcs. ammo pack"
+    "caliber": "5.45x39mm BT gs ammo pack (120 pcs)"
   },
   {
     "id": "57a0dfb82459774d3078b56c",
-    "name": "9x39mm SP-5",
+    "name": "9x39mm SP-5 gs",
     "image": "https://assets.tarkov-tools.com/57a0dfb82459774d3078b56c-grid-image.jpg",
     "shortName": "SP-5",
     "weight": 0.023,
-    "caliber": "9x39mm",
+    "caliber": "9x39mm  gs",
     "stackMaxSize": 50,
     "tracer": false,
     "tracerColor": "",
@@ -1583,11 +1556,11 @@
   },
   {
     "id": "57a0e5022459774d1673f889",
-    "name": "9x39mm SP-6",
+    "name": "9x39mm SP-6 gs",
     "image": "https://assets.tarkov-tools.com/57a0e5022459774d1673f889-grid-image.jpg",
     "shortName": "SP-6",
     "weight": 0.023,
-    "caliber": "9x39mm",
+    "caliber": "9x39mm  gs",
     "stackMaxSize": 50,
     "tracer": false,
     "tracerColor": "",
@@ -1606,7 +1579,7 @@
     },
     "trades": [
       {
-        "price": 914,
+        "price": 973,
         "source": "prapor",
         "currency": 0,
         "requirements": [
@@ -1620,11 +1593,11 @@
   },
   {
     "id": "58820d1224597753c90aeb13",
-    "name": "12/70 Lead slug",
+    "name": "12/70 lead slug",
     "image": "https://assets.tarkov-tools.com/58820d1224597753c90aeb13-grid-image.jpg",
     "shortName": "Slug",
     "weight": 0.05,
-    "caliber": "12/70",
+    "caliber": "12/70 lead slug",
     "stackMaxSize": 20,
     "tracer": false,
     "tracerColor": "",
@@ -1654,31 +1627,9 @@
         ]
       },
       {
-        "price": 62,
-        "source": "prapor",
-        "currency": 0,
-        "requirements": [
-          {
-            "type": "loyaltyLevel",
-            "value": 1
-          }
-        ]
-      },
-      {
         "price": 65,
         "source": "skier",
         "currency": 0,
-        "requirements": [
-          {
-            "type": "loyaltyLevel",
-            "value": 1
-          }
-        ]
-      },
-      {
-        "price": 1,
-        "source": "peacekeeper",
-        "currency": 1,
         "requirements": [
           {
             "type": "loyaltyLevel",
@@ -1692,9 +1643,9 @@
     "id": "58864a4f2459770fcc257101",
     "name": "9x19mm PSO gzh",
     "image": "https://assets.tarkov-tools.com/58864a4f2459770fcc257101-grid-image.jpg",
-    "shortName": "PSO gzh",
+    "shortName": "PSO",
     "weight": 0.01,
-    "caliber": "9x19mm",
+    "caliber": "9x19mm  gzh",
     "stackMaxSize": 50,
     "tracer": false,
     "tracerColor": "",
@@ -1740,9 +1691,9 @@
     "id": "5887431f2459777e1612938f",
     "name": "7.62x54mm R LPS gzh",
     "image": "https://assets.tarkov-tools.com/5887431f2459777e1612938f-grid-image.jpg",
-    "shortName": "LPS gzh",
+    "shortName": "LPS",
     "weight": 0.024,
-    "caliber": "7.62x54mm",
+    "caliber": "7.62x54mm R  gzh",
     "stackMaxSize": 40,
     "tracer": false,
     "tracerColor": "",
@@ -1779,7 +1730,7 @@
     "image": "https://assets.tarkov-tools.com/58d3db5386f77426186285a0-grid-image.jpg",
     "trades": [
       {
-        "price": 78,
+        "price": 67,
         "source": "peacekeeper",
         "currency": 1,
         "requirements": [
@@ -1789,7 +1740,7 @@
           },
           {
             "type": "questCompleted",
-            "value": 1
+            "value": 65
           }
         ]
       }
@@ -1838,9 +1789,9 @@
     "id": "59e0d99486f7744a32234762",
     "name": "7.62x39mm BP gzh",
     "image": "https://assets.tarkov-tools.com/59e0d99486f7744a32234762-grid-image.jpg",
-    "shortName": "BP gzh",
+    "shortName": "BP",
     "weight": 0.01,
-    "caliber": "7.62x39mm",
+    "caliber": "7.62x39mm  gzh",
     "stackMaxSize": 60,
     "tracer": false,
     "tracerColor": "",
@@ -1859,7 +1810,7 @@
     },
     "trades": [
       {
-        "price": 985,
+        "price": 1320,
         "source": "prapor",
         "currency": 0,
         "requirements": [
@@ -1869,7 +1820,7 @@
           },
           {
             "type": "questCompleted",
-            "value": 1
+            "value": 17
           }
         ]
       }
@@ -1916,9 +1867,9 @@
     "id": "59e4d24686f7741776641ac7",
     "name": "7.62x39mm US gzh",
     "image": "https://assets.tarkov-tools.com/59e4d24686f7741776641ac7-grid-image.jpg",
-    "shortName": "US gzh",
+    "shortName": "US",
     "weight": 0.01,
-    "caliber": "7.62x39mm",
+    "caliber": "7.62x39mm  gzh",
     "stackMaxSize": 60,
     "tracer": false,
     "tracerColor": "",
@@ -2180,7 +2131,7 @@
           },
           {
             "type": "questCompleted",
-            "value": 1
+            "value": 62
           }
         ]
       }
@@ -2326,9 +2277,9 @@
     "id": "59e77a2386f7742ee578960a",
     "name": "7.62x54mm R PS gzh",
     "image": "https://assets.tarkov-tools.com/59e77a2386f7742ee578960a-grid-image.jpg",
-    "shortName": "PS gzh",
+    "shortName": "PS",
     "weight": 0.024,
-    "caliber": "7.62x54mm",
+    "caliber": "7.62x54mm R  gzh",
     "stackMaxSize": 40,
     "tracer": false,
     "tracerColor": "",
@@ -2361,7 +2312,7 @@
   },
   {
     "id": "5a0c27731526d80618476ac4",
-    "name": "Zarya stun grenade",
+    "name": "\"Zarya\" stun grenade",
     "image": "https://assets.tarkov-tools.com/5a0c27731526d80618476ac4-grid-image.jpg",
     "trades": [
       {
@@ -2377,15 +2328,15 @@
       }
     ],
     "tracerColor": "",
-    "caliber": "Zarya stun grenade"
+    "caliber": "\"Zarya\" stun grenade"
   },
   {
     "id": "5a269f97c4a282000b151807",
     "name": "9x21mm PS gzh",
     "image": "https://assets.tarkov-tools.com/5a269f97c4a282000b151807-grid-image.jpg",
-    "shortName": "PS gzh",
+    "shortName": "PS",
     "weight": 0.023,
-    "caliber": "9x21mm",
+    "caliber": "9x21mm  gzh",
     "stackMaxSize": 50,
     "tracer": false,
     "tracerColor": "",
@@ -2420,9 +2371,9 @@
     "id": "5a26abfac4a28232980eabff",
     "name": "9x21mm P gzh",
     "image": "https://assets.tarkov-tools.com/5a26abfac4a28232980eabff-grid-image.jpg",
-    "shortName": "P gzh",
+    "shortName": "P",
     "weight": 0.023,
-    "caliber": "9x21mm",
+    "caliber": "9x21mm  gzh",
     "stackMaxSize": 50,
     "tracer": false,
     "tracerColor": "",
@@ -2457,9 +2408,9 @@
     "id": "5a26ac06c4a282000c5a90a8",
     "name": "9x21mm PE gzh",
     "image": "https://assets.tarkov-tools.com/5a26ac06c4a282000c5a90a8-grid-image.jpg",
-    "shortName": "PE gzh",
+    "shortName": "PE",
     "weight": 0.023,
-    "caliber": "9x21mm",
+    "caliber": "9x21mm  gzh",
     "stackMaxSize": 50,
     "tracer": false,
     "tracerColor": "",
@@ -2494,9 +2445,9 @@
     "id": "5a26ac0ec4a28200741e1e18",
     "name": "9x21mm BT gzh",
     "image": "https://assets.tarkov-tools.com/5a26ac0ec4a28200741e1e18-grid-image.jpg",
-    "shortName": "BT gzh",
+    "shortName": "BT",
     "weight": 0.023,
-    "caliber": "9x21mm",
+    "caliber": "9x21mm  gzh",
     "stackMaxSize": 50,
     "tracer": true,
     "tracerColor": "red",
@@ -2549,11 +2500,11 @@
   },
   {
     "id": "5a38ebd9c4a282000d722a5b",
-    "name": "20/70 7.5mm Buckshot",
+    "name": "20/70 7.5mm buckshot",
     "image": "https://assets.tarkov-tools.com/5a38ebd9c4a282000d722a5b-grid-image.jpg",
     "shortName": "7.5mm",
     "weight": 0.04,
-    "caliber": "20/70",
+    "caliber": "20/70  buckshot",
     "stackMaxSize": 20,
     "tracer": false,
     "tracerColor": "",
@@ -2657,7 +2608,7 @@
     },
     "trades": [
       {
-        "price": 19,
+        "price": 17,
         "source": "peacekeeper",
         "currency": 1,
         "requirements": [
@@ -2667,7 +2618,7 @@
           },
           {
             "type": "questCompleted",
-            "value": 1
+            "value": 79
           }
         ]
       }
@@ -2698,7 +2649,7 @@
     },
     "trades": [
       {
-        "price": 8,
+        "price": 9,
         "source": "peacekeeper",
         "currency": 1,
         "requirements": [
@@ -2708,7 +2659,7 @@
           },
           {
             "type": "questCompleted",
-            "value": 1
+            "value": 69
           }
         ]
       }
@@ -2739,7 +2690,7 @@
     },
     "trades": [
       {
-        "price": 3,
+        "price": 2,
         "source": "peacekeeper",
         "currency": 1,
         "requirements": [
@@ -2787,7 +2738,7 @@
         ]
       },
       {
-        "price": 2,
+        "price": 1,
         "source": "peacekeeper",
         "currency": 1,
         "requirements": [
@@ -2849,7 +2800,7 @@
     },
     "trades": [
       {
-        "price": 282,
+        "price": 463,
         "source": "mechanic",
         "currency": 0,
         "requirements": [
@@ -2940,9 +2891,9 @@
     "id": "5c0d5e4486f77478390952fe",
     "name": "5.45x39mm PPBS gs \"Igolnik\"",
     "image": "https://assets.tarkov-tools.com/5c0d5e4486f77478390952fe-grid-image.jpg",
-    "shortName": "PPBS gs",
+    "shortName": "PPBS",
     "weight": 0.011,
-    "caliber": "5.45x39mm  \"Igolnik\"",
+    "caliber": "5.45x39mm  gs \"Igolnik\"",
     "stackMaxSize": 60,
     "tracer": false,
     "tracerColor": "",
@@ -2963,11 +2914,11 @@
   },
   {
     "id": "5c0d668f86f7747ccb7f13b2",
-    "name": "9x39mm SPP",
+    "name": "9x39mm SPP gs",
     "image": "https://assets.tarkov-tools.com/5c0d668f86f7747ccb7f13b2-grid-image.jpg",
     "shortName": "SPP",
     "weight": 0.023,
-    "caliber": "9x39mm",
+    "caliber": "9x39mm  gs",
     "stackMaxSize": 50,
     "tracer": false,
     "tracerColor": "",
@@ -2996,7 +2947,7 @@
           },
           {
             "type": "questCompleted",
-            "value": 1
+            "value": 12
           }
         ]
       }
@@ -3004,11 +2955,11 @@
   },
   {
     "id": "5c0d688c86f77413ae3407b2",
-    "name": "9x39mm BP",
+    "name": "9x39mm BP gs",
     "image": "https://assets.tarkov-tools.com/5c0d688c86f77413ae3407b2-grid-image.jpg",
     "shortName": "BP",
     "weight": 0.023,
-    "caliber": "9x39mm",
+    "caliber": "9x39mm  gs",
     "stackMaxSize": 50,
     "tracer": false,
     "tracerColor": "",
@@ -3031,9 +2982,9 @@
     "id": "5c3df7d588a4501f290594e5",
     "name": "9x19mm T gzh",
     "image": "https://assets.tarkov-tools.com/5c3df7d588a4501f290594e5-grid-image.jpg",
-    "shortName": "T gzh",
+    "shortName": "T",
     "weight": 0.006,
-    "caliber": "9x19mm",
+    "caliber": "9x19mm  gzh",
     "stackMaxSize": 50,
     "tracer": true,
     "tracerColor": "Green",
@@ -3198,7 +3149,7 @@
           },
           {
             "type": "questCompleted",
-            "value": 1
+            "value": 10
           }
         ]
       }
@@ -3225,7 +3176,7 @@
       "penetrationPower": 37,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 922
+      "initialSpeed": 715
     },
     "trades": [
       {
@@ -3297,9 +3248,9 @@
       "ricochetChance": 0.3,
       "penetrationChance": 0.5,
       "penetrationPower": 35,
-      "accuracy": 0,
-      "recoil": -20,
-      "initialSpeed": 922
+      "accuracy": 5,
+      "recoil": -24,
+      "initialSpeed": 299
     },
     "trades": [
       {
@@ -3336,7 +3287,7 @@
       "penetrationPower": 10,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 922
+      "initialSpeed": 792
     },
     "trades": [
       {
@@ -3373,11 +3324,11 @@
       "penetrationPower": 20,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 922
+      "initialSpeed": 594
     },
     "trades": [
       {
-        "price": 2,
+        "price": 1,
         "source": "peacekeeper",
         "currency": 1,
         "requirements": [
@@ -3414,7 +3365,7 @@
     },
     "trades": [
       {
-        "price": 277,
+        "price": 253,
         "source": "mechanic",
         "currency": 0,
         "requirements": [
@@ -3424,7 +3375,7 @@
           },
           {
             "type": "questCompleted",
-            "value": 1
+            "value": 91
           }
         ]
       }
@@ -3455,7 +3406,7 @@
     },
     "trades": [
       {
-        "price": 209,
+        "price": 175,
         "source": "mechanic",
         "currency": 0,
         "requirements": [
@@ -3469,15 +3420,15 @@
   },
   {
     "id": "5cd157cfd7f00c0011791f36",
-    "name": "26x75mm flare cartridge",
+    "name": "patron_26x75",
     "image": null,
     "trades": [],
     "tracerColor": "",
-    "caliber": "26x75mm flare cartridge"
+    "caliber": "patron_26x75"
   },
   {
     "id": "5d6e6772a4b936088465b17c",
-    "name": "12/70 5.25mm Buckshot",
+    "name": "12/70 5.25mm buckshot",
     "image": "https://assets.tarkov-tools.com/5d6e6772a4b936088465b17c-grid-image.jpg",
     "shortName": "5.25mm",
     "weight": 0.044,
@@ -3574,7 +3525,7 @@
     },
     "trades": [
       {
-        "price": 53,
+        "price": 66,
         "source": "jaeger",
         "currency": 0,
         "requirements": [
@@ -3588,11 +3539,11 @@
   },
   {
     "id": "5d6e6869a4b9361c140bcfde",
-    "name": "12/70 Grizzly 40 Slug",
+    "name": "12/70 Grizzly 40 slug",
     "image": "https://assets.tarkov-tools.com/5d6e6869a4b9361c140bcfde-grid-image.jpg",
     "shortName": "Grizzly 40",
     "weight": 0.055,
-    "caliber": "12/70",
+    "caliber": "12/70  slug",
     "stackMaxSize": 20,
     "tracer": false,
     "tracerColor": "",
@@ -3625,11 +3576,11 @@
   },
   {
     "id": "5d6e6891a4b9361bd473feea",
-    "name": "12/70 \"Poleva-3\" Slug",
+    "name": "12/70 \"Poleva-3\" slug",
     "image": "https://assets.tarkov-tools.com/5d6e6891a4b9361bd473feea-grid-image.jpg",
     "shortName": "Poleva-3",
     "weight": 0.044,
-    "caliber": "12/70",
+    "caliber": "12/70 \"\" slug",
     "stackMaxSize": 20,
     "tracer": false,
     "tracerColor": "",
@@ -3662,11 +3613,11 @@
   },
   {
     "id": "5d6e689ca4b9361bc8618956",
-    "name": "12/70 \"Poleva-6u\" Slug",
+    "name": "12/70 \"Poleva-6u\" slug",
     "image": "https://assets.tarkov-tools.com/5d6e689ca4b9361bc8618956-grid-image.jpg",
     "shortName": "Poleva-6u",
     "weight": 0.048,
-    "caliber": "12/70",
+    "caliber": "12/70 \"\" slug",
     "stackMaxSize": 20,
     "tracer": false,
     "tracerColor": "",
@@ -3699,11 +3650,11 @@
   },
   {
     "id": "5d6e68a8a4b9360b6c0d54e2",
-    "name": "12/70 AP-20 Slug",
+    "name": "12/70 AP-20 armor-piercing slug",
     "image": "https://assets.tarkov-tools.com/5d6e68a8a4b9360b6c0d54e2-grid-image.jpg",
     "shortName": "AP-20",
     "weight": 0.05,
-    "caliber": "12/70",
+    "caliber": "12/70  armor-piercing slug",
     "stackMaxSize": 20,
     "tracer": false,
     "tracerColor": "",
@@ -3716,13 +3667,13 @@
       "ricochetChance": 0.1,
       "penetrationChance": 0.36,
       "penetrationPower": 37,
-      "accuracy": 125,
+      "accuracy": 80,
       "recoil": 50,
       "initialSpeed": 510
     },
     "trades": [
       {
-        "price": 367,
+        "price": 562,
         "source": "jaeger",
         "currency": 0,
         "requirements": [
@@ -3736,11 +3687,11 @@
   },
   {
     "id": "5d6e68b3a4b9361bca7e50b5",
-    "name": "12/70 Copper Sabot Premier HP Slug",
+    "name": "12/70 Copper Sabot Premier HP slug",
     "image": "https://assets.tarkov-tools.com/5d6e68b3a4b9361bca7e50b5-grid-image.jpg",
     "shortName": "CSP",
     "weight": 0.043,
-    "caliber": "12/70",
+    "caliber": "12/70 Copper Sabot Premier HP slug",
     "stackMaxSize": 20,
     "tracer": false,
     "tracerColor": "",
@@ -3796,7 +3747,7 @@
     },
     "trades": [
       {
-        "price": 131,
+        "price": 250,
         "source": "jaeger",
         "currency": 0,
         "requirements": [
@@ -3810,11 +3761,11 @@
   },
   {
     "id": "5d6e68d1a4b93622fe60e845",
-    "name": "12/70 SuperFormance HP Slug",
+    "name": "12/70 SuperFormance HP slug",
     "image": "https://assets.tarkov-tools.com/5d6e68d1a4b93622fe60e845-grid-image.jpg",
     "shortName": "SFormance",
     "weight": 0.034,
-    "caliber": "12/70",
+    "caliber": "12/70 SuperFormance HP slug",
     "stackMaxSize": 20,
     "tracer": false,
     "tracerColor": "",
@@ -3847,11 +3798,11 @@
   },
   {
     "id": "5d6e68dea4b9361bcc29e659",
-    "name": "12/70 Dual Sabot Slug",
+    "name": "12/70 Dual Sabot slug",
     "image": "https://assets.tarkov-tools.com/5d6e68dea4b9361bcc29e659-grid-image.jpg",
     "shortName": "DualSabot",
     "weight": 0.05,
-    "caliber": "12/70",
+    "caliber": "12/70 Dual Sabot slug",
     "stackMaxSize": 20,
     "tracer": false,
     "tracerColor": "",
@@ -3884,11 +3835,11 @@
   },
   {
     "id": "5d6e68e6a4b9361c140bcfe0",
-    "name": "12/70 FTX Custom Lite Slug",
+    "name": "12/70 FTX Custom Lite slug",
     "image": "https://assets.tarkov-tools.com/5d6e68e6a4b9361c140bcfe0-grid-image.jpg",
     "shortName": "FTX",
     "weight": 0.026,
-    "caliber": "12/70",
+    "caliber": "12/70  Custom Lite slug",
     "stackMaxSize": 20,
     "tracer": false,
     "tracerColor": "",
@@ -3921,11 +3872,11 @@
   },
   {
     "id": "5d6e6911a4b9361bd5780d52",
-    "name": "12/70 Flechette",
+    "name": "12/70 flechette",
     "image": "https://assets.tarkov-tools.com/5d6e6911a4b9361bd5780d52-grid-image.jpg",
     "shortName": "Flechette",
     "weight": 0.04,
-    "caliber": "12/70",
+    "caliber": "12/70 flechette",
     "stackMaxSize": 20,
     "tracer": false,
     "tracerColor": "",
@@ -3944,7 +3895,7 @@
     },
     "trades": [
       {
-        "price": 79,
+        "price": 134,
         "source": "jaeger",
         "currency": 0,
         "requirements": [
@@ -3958,11 +3909,11 @@
   },
   {
     "id": "5d6e695fa4b936359b35d852",
-    "name": "20/70 5.6mm Buckshot",
+    "name": "20/70 5.6mm buckshot",
     "image": "https://assets.tarkov-tools.com/5d6e695fa4b936359b35d852-grid-image.jpg",
     "shortName": "5.6mm",
     "weight": 0.028,
-    "caliber": "20/70",
+    "caliber": "20/70  buckshot",
     "stackMaxSize": 20,
     "tracer": false,
     "tracerColor": "",
@@ -3995,11 +3946,11 @@
   },
   {
     "id": "5d6e69b9a4b9361bc8618958",
-    "name": "20/70 6.2mm Buckshot",
+    "name": "20/70 6.2mm buckshot",
     "image": "https://assets.tarkov-tools.com/5d6e69b9a4b9361bc8618958-grid-image.jpg",
     "shortName": "6.2mm",
     "weight": 0.032,
-    "caliber": "20/70",
+    "caliber": "20/70  buckshot",
     "stackMaxSize": 20,
     "tracer": false,
     "tracerColor": "",
@@ -4032,11 +3983,11 @@
   },
   {
     "id": "5d6e69c7a4b9360b6c0d54e4",
-    "name": "20/70 7.3mm Buckshot",
+    "name": "20/70 7.3mm buckshot",
     "image": "https://assets.tarkov-tools.com/5d6e69c7a4b9360b6c0d54e4-grid-image.jpg",
     "shortName": "7.3mm",
     "weight": 0.032,
-    "caliber": "20/70",
+    "caliber": "20/70  buckshot",
     "stackMaxSize": 20,
     "tracer": false,
     "tracerColor": "",
@@ -4069,11 +4020,11 @@
   },
   {
     "id": "5d6e6a05a4b93618084f58d0",
-    "name": "20/70 Star Slug",
+    "name": "20/70 Star slug",
     "image": "https://assets.tarkov-tools.com/5d6e6a05a4b93618084f58d0-grid-image.jpg",
-    "shortName": "Slug",
+    "shortName": "Star",
     "weight": 0.034,
-    "caliber": "20/70",
+    "caliber": "20/70  slug",
     "stackMaxSize": 20,
     "tracer": false,
     "tracerColor": "",
@@ -4180,11 +4131,11 @@
   },
   {
     "id": "5d6e6a5fa4b93614ec501745",
-    "name": "20/70 Devastator Slug",
+    "name": "20/70 Devastator slug",
     "image": "https://assets.tarkov-tools.com/5d6e6a5fa4b93614ec501745-grid-image.jpg",
     "shortName": "Devastator",
     "weight": 0.029,
-    "caliber": "20/70  Slug",
+    "caliber": "20/70  slug",
     "stackMaxSize": 20,
     "tracer": false,
     "tracerColor": "",
@@ -4217,11 +4168,11 @@
   },
   {
     "id": "5d70e500a4b9364de70d38ce",
-    "name": "30x29 mm VOG-30",
+    "name": "30x29mm VOG-30",
     "image": "https://assets.tarkov-tools.com/5d70e500a4b9364de70d38ce-grid-image.jpg",
     "shortName": "VOG-30",
     "weight": 0.35,
-    "caliber": "30x29 mm",
+    "caliber": "30x29mm",
     "stackMaxSize": 1,
     "tracer": false,
     "tracerColor": "",
@@ -4244,9 +4195,9 @@
     "id": "5e023cf8186a883be655e54f",
     "name": "7.62x54mm R T-46M gzh",
     "image": "https://assets.tarkov-tools.com/5e023cf8186a883be655e54f-grid-image.jpg",
-    "shortName": "T-46M gzh",
+    "shortName": "T-46M",
     "weight": 0.025,
-    "caliber": "7.62x54mm",
+    "caliber": "7.62x54mm R  gzh",
     "stackMaxSize": 40,
     "tracer": true,
     "tracerColor": "green",
@@ -4281,9 +4232,9 @@
     "id": "5e023d34e8a400319a28ed44",
     "name": "7.62x54mm R BT gzh",
     "image": "https://assets.tarkov-tools.com/5e023d34e8a400319a28ed44-grid-image.jpg",
-    "shortName": "BT gzh",
+    "shortName": "BT",
     "weight": 0.024,
-    "caliber": "7.62x54mm",
+    "caliber": "7.62x54mm R  gzh",
     "stackMaxSize": 40,
     "tracer": true,
     "tracerColor": "green",
@@ -4302,7 +4253,7 @@
     },
     "trades": [
       {
-        "price": 1057,
+        "price": 1214,
         "source": "prapor",
         "currency": 0,
         "requirements": [
@@ -4312,7 +4263,7 @@
           },
           {
             "type": "questCompleted",
-            "value": 1
+            "value": 15
           }
         ]
       }
@@ -4322,9 +4273,9 @@
     "id": "5e023d48186a883be655e551",
     "name": "7.62x54mm R BS gs",
     "image": "https://assets.tarkov-tools.com/5e023d48186a883be655e551-grid-image.jpg",
-    "shortName": "BS gs",
+    "shortName": "BS",
     "weight": 0.025,
-    "caliber": "7.62x54mm",
+    "caliber": "7.62x54mm R  gs",
     "stackMaxSize": 40,
     "tracer": false,
     "tracerColor": "",
@@ -4442,7 +4393,7 @@
     },
     "trades": [
       {
-        "price": 336,
+        "price": 407,
         "source": "jaeger",
         "currency": 0,
         "requirements": [
@@ -4456,19 +4407,19 @@
   },
   {
     "id": "5e32f56fcb6d5863cc5e5ee4",
-    "name": "VOG-17 Khattabka grenade",
+    "name": "VOG-17 Khattabka improvised hand grenade",
     "image": "https://assets.tarkov-tools.com/5e32f56fcb6d5863cc5e5ee4-grid-image.jpg",
     "trades": [],
     "tracerColor": "",
-    "caliber": "VOG-17 Khattabka grenade"
+    "caliber": "VOG-17 Khattabka improvised hand grenade"
   },
   {
     "id": "5e340dcdcb6d5863cc5e5efb",
-    "name": "VOG-25 Khattabka grenade",
+    "name": "VOG-25 Khattabka improvised hand grenade",
     "image": "https://assets.tarkov-tools.com/5e340dcdcb6d5863cc5e5efb-grid-image.jpg",
     "trades": [],
     "tracerColor": "",
-    "caliber": "VOG-25 Khattabka grenade"
+    "caliber": "VOG-25 Khattabka improvised hand grenade"
   },
   {
     "id": "5e81f423763d9f754677bf2e",
@@ -4532,13 +4483,13 @@
     },
     "trades": [
       {
-        "price": 86,
+        "price": 120,
         "source": "prapor",
         "currency": 0,
         "requirements": [
           {
             "type": "loyaltyLevel",
-            "value": 2
+            "value": 3
           }
         ]
       }
@@ -4575,7 +4526,11 @@
         "requirements": [
           {
             "type": "loyaltyLevel",
-            "value": 3
+            "value": null
+          },
+          {
+            "type": "questCompleted",
+            "value": 240
           }
         ]
       }
@@ -4730,7 +4685,7 @@
     },
     "trades": [
       {
-        "price": 314,
+        "price": 272,
         "source": "peacekeeper",
         "currency": 1,
         "requirements": [
@@ -4842,7 +4797,7 @@
     },
     "trades": [
       {
-        "price": 4,
+        "price": 5,
         "source": "peacekeeper",
         "currency": 1,
         "requirements": [
@@ -4895,9 +4850,9 @@
     "id": "5efb0da7a29a85116f6ea05f",
     "name": "9x19mm PBP gzh",
     "image": "https://assets.tarkov-tools.com/5efb0da7a29a85116f6ea05f-grid-image.jpg",
-    "shortName": "PBP gzh",
+    "shortName": "PBP",
     "weight": 0.009,
-    "caliber": "9x19mm",
+    "caliber": "9x19mm  gzh",
     "stackMaxSize": 50,
     "tracer": false,
     "tracerColor": "",
@@ -4978,7 +4933,7 @@
     },
     "trades": [
       {
-        "price": 2,
+        "price": 1,
         "source": "peacekeeper",
         "currency": 1,
         "requirements": [
@@ -5077,7 +5032,7 @@
     },
     "trades": [
       {
-        "price": 105,
+        "price": 138,
         "source": "prapor",
         "currency": 0,
         "requirements": [
@@ -5091,11 +5046,11 @@
   },
   {
     "id": "5fbe3ffdf8b6a877a729ea82",
-    "name": ".300 AAC Blackout BCP FMJ",
+    "name": ".300 Blackout BCP FMJ",
     "image": "https://assets.tarkov-tools.com/5fbe3ffdf8b6a877a729ea82-grid-image.jpg",
     "shortName": "BCP FMJ",
     "weight": 0.015,
-    "caliber": ".300",
+    "caliber": ".300 Blackout",
     "stackMaxSize": 60,
     "tracer": false,
     "tracerColor": "",
@@ -5151,7 +5106,7 @@
     },
     "trades": [
       {
-        "price": 17,
+        "price": 15,
         "source": "peacekeeper",
         "currency": 1,
         "requirements": [
@@ -5223,7 +5178,7 @@
           },
           {
             "type": "questCompleted",
-            "value": 1
+            "value": 108
           }
         ]
       }
@@ -5268,11 +5223,11 @@
   },
   {
     "id": "5fd20ff893a8961fc660a954",
-    "name": ".300 AAC Blackout AP",
+    "name": ".300 Blackout AP",
     "image": "https://assets.tarkov-tools.com/5fd20ff893a8961fc660a954-grid-image.jpg",
     "shortName": "AP",
     "weight": 0.014,
-    "caliber": ".300",
+    "caliber": ".300 Blackout",
     "stackMaxSize": 60,
     "tracer": false,
     "tracerColor": "",
@@ -5287,7 +5242,7 @@
       "penetrationPower": 45,
       "accuracy": 0,
       "recoil": 10,
-      "initialSpeed": 605
+      "initialSpeed": 635
     },
     "trades": [
       {
@@ -5391,27 +5346,164 @@
     "trades": []
   },
   {
-    "id": "6196364158ef8c428c287d9f",
-    "name": ".300 AAC Blackout V-Max",
-    "image": "https://assets.tarkov-tools.com/6196364158ef8c428c287d9f-grid-image.jpg",
-    "trades": [],
+    "id": "61962b617c6c7b169525f168",
+    "name": "5.45x39mm 7N40",
+    "image": "https://assets.tarkov-tools.com/61962b617c6c7b169525f168-grid-image.jpg",
+    "shortName": "7N40",
+    "weight": 0.011,
+    "caliber": "5.45x39mm",
+    "stackMaxSize": 60,
+    "tracer": false,
     "tracerColor": "",
-    "caliber": ".300 AAC Blackout V-Max"
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 52,
+      "armorDamage": 50,
+      "fragmentationChance": 0.02,
+      "ricochetChance": 0.3,
+      "penetrationChance": 0.65,
+      "penetrationPower": 44,
+      "accuracy": 50,
+      "recoil": -20,
+      "initialSpeed": 915
+    },
+    "trades": []
+  },
+  {
+    "id": "61962d879bb3d20b0946d385",
+    "name": "9x39mm PAB-9 gs",
+    "image": "https://assets.tarkov-tools.com/61962d879bb3d20b0946d385-grid-image.jpg",
+    "shortName": "PAB-9",
+    "weight": 0.024,
+    "caliber": "9x39mm  gs",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 62,
+      "armorDamage": 72,
+      "fragmentationChance": 0.1,
+      "ricochetChance": 0.48,
+      "penetrationChance": 0.78,
+      "penetrationPower": 48,
+      "accuracy": -15,
+      "recoil": 10,
+      "initialSpeed": 320
+    },
+    "trades": []
+  },
+  {
+    "id": "6196364158ef8c428c287d9f",
+    "name": ".300 Blackout V-Max",
+    "image": "https://assets.tarkov-tools.com/6196364158ef8c428c287d9f-grid-image.jpg",
+    "shortName": "V-Max",
+    "weight": 0.015,
+    "caliber": ".300 Blackout",
+    "stackMaxSize": 60,
+    "tracer": false,
+    "tracerColor": "",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 72,
+      "armorDamage": 25,
+      "fragmentationChance": 0.25,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 20,
+      "accuracy": 30,
+      "recoil": -10,
+      "initialSpeed": 723
+    },
+    "trades": [
+      {
+        "price": 144,
+        "source": "skier",
+        "currency": 0,
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 4
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "6196365d58ef8c428c287da1",
-    "name": ".300 Whisper",
-    "image": null,
-    "trades": [],
+    "name": ".300 Blackout Whisper",
+    "image": "https://assets.tarkov-tools.com/6196365d58ef8c428c287da1-grid-image.jpg",
+    "shortName": "Whisper",
+    "weight": 0.015,
+    "caliber": ".300 Blackout",
+    "stackMaxSize": 60,
+    "tracer": false,
     "tracerColor": "",
-    "caliber": ".300 Whisper"
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 90,
+      "armorDamage": 18,
+      "fragmentationChance": 0.35,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.1,
+      "penetrationPower": 14,
+      "accuracy": 5,
+      "recoil": -5,
+      "initialSpeed": 853
+    },
+    "trades": [
+      {
+        "price": 109,
+        "source": "skier",
+        "currency": 0,
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 3
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "619636be6db0f2477964e710",
-    "name": ".300 AAC Blackout M62 Tracer",
-    "image": null,
-    "trades": [],
-    "tracerColor": "",
-    "caliber": ".300 AAC Blackout M62 Tracer"
+    "name": ".300 Blackout M62 Tracer",
+    "image": "https://assets.tarkov-tools.com/619636be6db0f2477964e710-grid-image.jpg",
+    "shortName": "M62",
+    "weight": 0.016,
+    "caliber": ".300 Blackout  Tracer",
+    "stackMaxSize": 60,
+    "tracer": true,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 54,
+      "armorDamage": 40,
+      "fragmentationChance": 0.2,
+      "ricochetChance": 0.37,
+      "penetrationChance": 0.4,
+      "penetrationPower": 34,
+      "accuracy": 0,
+      "recoil": 5,
+      "initialSpeed": 442
+    },
+    "trades": [
+      {
+        "price": 3,
+        "source": "peacekeeper",
+        "currency": 1,
+        "requirements": [
+          {
+            "type": "loyaltyLevel",
+            "value": 3
+          }
+        ]
+      }
+    ]
   }
 ]

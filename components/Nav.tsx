@@ -10,14 +10,15 @@ import SearchContext from "../context/searchContext";
 
 const Container = styled.div`
   background: linear-gradient(45deg, #0f202d, #09141c);
+  width: 90vw;
   height: 3rem;
   margin: 1rem;
-  margin-right: 1.42rem;
   border-radius: 5px;
   box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
-  display: flex;
   padding: 0.5rem;
+  position: fixed;
+  top: 0.2em;
 `;
 
 const Nav = () => {
