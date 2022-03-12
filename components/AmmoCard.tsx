@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import { Ammo, Ballistics } from "../interfaces/ammo";
-import Card, { TitleContainer, Image, Title } from "./Card/Card.styled";
+import Card, {
+  TitleContainer,
+  Image,
+  Title,
+  CardBack,
+  InfoTitle,
+} from "./Card/Card.styled";
 import { Spacer } from "./Spacer.styled";
 import Trade, { Traders } from "./Trade";
 
@@ -17,35 +23,62 @@ const InfoRow = styled.div`
 interface Props {
   data: Ammo;
 }
-const AmmoCard = ({ data }: Props) => (
-  <Card>
-    <TitleContainer>
-      <Image src={data.image} alt="item image" />
-      <Title>{data.name}</Title>
-    </TitleContainer>
-    <Spacer />
-    <InfoContainer>
-      <InfoRow>{data.caliber && "Caliber: " + data.caliber}</InfoRow>
-      <InfoRow>
-        Tracer:
-        {data.tracer ? " True" : " False"}{" "}
-        {data.tracer && `(${data.tracerColor})`}
-      </InfoRow>
-      <InfoRow>Stack Size: {data.stackMaxSize}</InfoRow>
-      <InfoRow>
-        Weight: {data.weight} ({(data.weight * data.stackMaxSize).toFixed(2)})
-      </InfoRow>
 
-      {data.ballistics && listBallistics(data.ballistics)}
-    </InfoContainer>
-    <Spacer />
-    <Traders>
-      {data.trades.map((trade) => {
-        return <Trade key={data.id + trade.source} data={trade} />;
-      })}
-    </Traders>
-  </Card>
-);
+const AmmoCard = ({ data }: Props) => {
+  const [flipped, setFlipped] = useState(false);
+
+  const handleClick = () => {
+    setFlipped(!flipped);
+  };
+
+  if (flipped) {
+    return (
+      <div onClick={handleClick}>
+        <CardBack>
+          <TitleContainer>
+            <Image src={data.image} alt="item image" />
+            <Title>{data.name}</Title>
+          </TitleContainer>
+          <Spacer />
+          <InfoContainer>
+            <InfoTitle>Basllistics </InfoTitle>
+            {data.ballistics && listBallistics(data.ballistics)}
+          </InfoContainer>
+          <Spacer />
+        </CardBack>
+      </div>
+    );
+  }
+
+  return (
+    <div onClick={handleClick}>
+      <Card>
+        <TitleContainer>
+          <Image src={data.image} alt="item image" />
+          <Title>{data.name}</Title>
+        </TitleContainer>
+        <Spacer />
+        <InfoContainer>
+          <InfoTitle>Info </InfoTitle>
+          <InfoRow>{data.caliber && "Caliber: " + data.caliber}</InfoRow>
+          <InfoRow>
+            Tracer:
+            {data.tracer ? " True" : " False"}{" "}
+            {data.tracer && `(${data.tracerColor})`}
+          </InfoRow>
+          <InfoRow>Stack Size: {data.stackMaxSize}</InfoRow>
+
+          <Spacer />
+          <Traders>
+            {data.trades.map((trade) => {
+              return <Trade key={data.id + trade.source} data={trade} />;
+            })}
+          </Traders>
+        </InfoContainer>
+      </Card>
+    </div>
+  );
+};
 
 function listBallistics(ballistics: Ballistics) {
   return (

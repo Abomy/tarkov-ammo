@@ -19,6 +19,7 @@ const Container = styled.div`
   padding: 0.5rem;
   position: fixed;
   top: 0.2em;
+  z-index: 10;
 `;
 
 const Nav = () => {
