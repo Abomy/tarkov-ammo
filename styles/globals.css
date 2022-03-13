@@ -3,6 +3,16 @@ body {
   padding: 0;
   margin: 0rem;
   font-family: "Montserrat";
+  color: white;
+  background-image: url("../public/static/images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: fill;
+  background-size: cover;
+}
+
+html {
+  overflow-y: scroll;
 }
 
 a {
@@ -14,8 +24,24 @@ a {
   box-sizing: border-box;
 }
 .cards {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 1rem;
-  margin-top: 4em;
+  margin: 2em;
+  display: grid;
+  grid-gap: 0.5em;
+  grid-template-columns: 1fr;
+}
+@media screen and (min-width: 420px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .cards {
+    grid-template-columns: repeat(6, 1fr);
+  }
 }

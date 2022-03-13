@@ -1,24 +1,17 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { Ammo, Ballistics } from "../interfaces/ammo";
-import Card, {
+import Card from "./Card/Card";
+import {
   TitleContainer,
   Image,
   Title,
-  CardBack,
   InfoTitle,
+  InfoContainer,
+  InfoRow,
 } from "./Card/Card.styled";
 import { Spacer } from "./Spacer.styled";
 import Trade, { Traders } from "./Trade";
-
-const InfoContainer = styled.div`
-  margin-top: 1rem;
-  display: flex;
-  flex-direction: column;
-`;
-const InfoRow = styled.div`
-  color: #fff;
-`;
 
 interface Props {
   data: Ammo;
@@ -34,18 +27,21 @@ const AmmoCard = ({ data }: Props) => {
   if (flipped) {
     return (
       <div onClick={handleClick}>
-        <CardBack>
+        <Card>
           <TitleContainer>
             <Image src={data.image} alt="item image" />
             <Title>{data.name}</Title>
           </TitleContainer>
-          <Spacer />
           <InfoContainer>
             <InfoTitle>Basllistics </InfoTitle>
             {data.ballistics && listBallistics(data.ballistics)}
+            <Traders>
+              {data.trades.map((trade) => {
+                return <Trade key={data.id + trade.source} data={trade} />;
+              })}
+            </Traders>
           </InfoContainer>
-          <Spacer />
-        </CardBack>
+        </Card>
       </div>
     );
   }
@@ -57,7 +53,6 @@ const AmmoCard = ({ data }: Props) => {
           <Image src={data.image} alt="item image" />
           <Title>{data.name}</Title>
         </TitleContainer>
-        <Spacer />
         <InfoContainer>
           <InfoTitle>Info </InfoTitle>
           <InfoRow>{data.caliber && "Caliber: " + data.caliber}</InfoRow>
@@ -68,7 +63,6 @@ const AmmoCard = ({ data }: Props) => {
           </InfoRow>
           <InfoRow>Stack Size: {data.stackMaxSize}</InfoRow>
 
-          <Spacer />
           <Traders>
             {data.trades.map((trade) => {
               return <Trade key={data.id + trade.source} data={trade} />;
@@ -111,3 +105,10 @@ function listBallistics(ballistics: Ballistics) {
 }
 
 export default AmmoCard;
+function useSpring(arg0: {
+  opacity: number;
+  transform: string;
+  config: { mass: number; tension: number; friction: number };
+}): { transform: any; opacity: any } {
+  throw new Error("Function not implemented.");
+}

@@ -1,16 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import { Weapon } from "../interfaces/weapon";
-import Card, { Image } from "./Card/Card.styled";
+import Card from "./Card/Card";
+import { Image } from "./Card/Card.styled";
 
-const InfoContainer = styled.div`
-  margin-top: 1rem;
-  display: flex;
-  flex-direction: column;
-`;
-const InfoRow = styled.div`
-  color: #fff;
-`;
+const InfoContainer = styled.div``;
+const InfoRow = styled.div``;
 
 interface Props {
   data: Weapon;
