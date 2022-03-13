@@ -21,6 +21,7 @@ export const Title = styled.div`
   text-shadow: 1px 1px black;
   align-items: center;
   font-weight: 700;
+  word-break: break-word;
 `;
 
 export const InfoTitle = styled.div`

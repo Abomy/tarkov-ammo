@@ -23,8 +23,10 @@ a {
 * {
   box-sizing: border-box;
 }
+
 .cards {
   margin: 2em;
+  margin-top: 7em;
   display: grid;
   grid-gap: 0.5em;
   grid-template-columns: 1fr;

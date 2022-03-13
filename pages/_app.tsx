@@ -1,6 +1,6 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
-import Nav from "../components/Nav";
+import Nav from "../components/Nav/Nav";
 import SearchContext from "../context/searchContext";
 import { useState } from "react";
 
