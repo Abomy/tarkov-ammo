@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const StyledContainer = styled.div`
+  user-select: none;
   position: relative;
   background-color: #313131;
   border-radius: 10px;
@@ -27,6 +28,7 @@ export const InfoTitle = styled.div`
   padding-bottom: 1em;
   text-decoration: underline;
   text-align: center;
+  margin: 0 auto;
   font-weight: 700;
 `;
 
@@ -46,8 +48,10 @@ export const Image = styled.img`
 `;
 
 export const InfoContainer = styled.div`
+  position: absolute;
   height: 100%;
   display: flex;
+  will-change: transform, opacity;
 
   flex-direction: column;
   padding: 0em 0.4em 0.4em 0.4em;
