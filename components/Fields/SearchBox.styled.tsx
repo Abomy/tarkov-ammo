@@ -4,6 +4,9 @@ export const SearchContainer = styled.div`
   display: inline;
   width: 100%;
   position: relative;
+  @media (min-width: 600px) {
+    width: 50%;
+  }
 `;
 export const SearchBox = styled.input`
   border: 1px solid rgb(255, 255, 255, 0.4);
@@ -16,6 +19,9 @@ export const SearchBox = styled.input`
   outline: none;
   :focus {
     border: 1px solid rgb(255, 255, 255, 1);
+  }
+  @media (min-width: 600px) {
+    width: 50%;
   }
 `;
 

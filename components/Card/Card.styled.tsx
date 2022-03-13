@@ -13,6 +13,10 @@ const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 90vw;
+
+  @media only screen and (min-width: 420px) {
+    width: auto;
+  }
 `;
 
 const StyledContainerBack = styled.div`
@@ -28,6 +32,9 @@ const StyledContainerBack = styled.div`
   flex-direction: column;
   transition: all 0.5s;
   width: 90vw;
+  @media only screen and (min-width: 420px) {
+    width: auto;
+  }
 `;
 
 export const Title = styled.div`
@@ -36,9 +43,6 @@ export const Title = styled.div`
   font-weight: 600;
   padding-left: 0.8rem;
   font-size: 1.2rem;
-  @media (max-width: 500px) {
-    font-size: 1rem;
-  }
 `;
 export const InfoTitle = styled.div`
   text-align: left;
@@ -47,9 +51,6 @@ export const InfoTitle = styled.div`
   font-weight: 600;
   font-size: 1.2rem;
   margin-bottom: 1rem;
-  @media (max-width: 500px) {
-    font-size: 1rem;
-  }
 `;
 
 export const TitleContainer = styled.div`
