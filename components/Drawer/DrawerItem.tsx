@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaChevronCircleDown } from "react-icons/fa";
+import { FaAngleDown, FaChevronCircleDown } from "react-icons/fa";
 import { a, useSpring } from "react-spring";
 import useMeasure from "react-use-measure";
 import {
@@ -7,6 +7,7 @@ import {
   DrawerItemContent,
   DrawerItemInner,
   DrawerHeader,
+  DrawerItemIcon,
 } from "./Drawer.styled";
 
 interface DrawerItemProps {
@@ -35,7 +36,9 @@ const DrawerItem = ({ title, children }: DrawerItemProps) => {
       <DrawerHeader onClick={togglePanel}>
         <span>{title}</span>
         <a.div style={chevronAnimation}>
-          <FaChevronCircleDown color="grey" />
+          <DrawerItemIcon>
+            <FaAngleDown color="grey" />
+          </DrawerItemIcon>
         </a.div>
       </DrawerHeader>
       <DrawerItemContent>

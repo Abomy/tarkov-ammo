@@ -3,8 +3,9 @@ import { useSpring, animated } from "react-spring";
 import { useOutsideAlerter } from "../../events/OutsideAlert";
 import SearchBox from "../Fields/SearchBox";
 import { SearchBoxLabel, SearchContainer } from "../Fields/SearchBox.styled";
-import { DrawerCard, DrawerContainer } from "./Drawer.styled";
+import { DrawerCard, DrawerContainer, DrawerLabel } from "./Drawer.styled";
 import DrawerItem from "./DrawerItem";
+import FilterItem from "./Items/FilterItem";
 
 const Drawer = ({ show, handler, search, query }) => {
   const wrapperRef = React.useRef(null);
@@ -26,15 +27,13 @@ const Drawer = ({ show, handler, search, query }) => {
             <SearchBoxLabel>Search</SearchBoxLabel>
             <SearchBox callback={(e) => search(e.target.value)} />
           </SearchContainer>
-          <DrawerItem title="Test">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua.
+          <DrawerLabel>Filters</DrawerLabel>
+          <DrawerItem title="Caliber">
+            <FilterItem />
           </DrawerItem>
-          <DrawerItem title="Test" />
-          <DrawerItem title="Test" />
-          <DrawerItem title="Test" />
-          <DrawerItem title="Test" />
+          <DrawerItem title="Weapon">
+            <FilterItem />
+          </DrawerItem>
         </DrawerContainer>
       </DrawerCard>
     </animated.div>

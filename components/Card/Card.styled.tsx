@@ -17,7 +17,7 @@ export const Title = styled.div`
   margin-left: 0.3em;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   text-shadow: 1px 1px black;
   align-items: center;
   font-weight: 700;
@@ -28,7 +28,7 @@ export const InfoTitle = styled.div`
   padding-top: 1em;
   padding-bottom: 1em;
   text-decoration: underline;
-  text-align: center;
+  text-align: left;
   margin: 0 auto;
   font-weight: 700;
 `;
@@ -50,6 +50,8 @@ export const Image = styled.img`
 
 export const InfoContainer = styled.div`
   position: absolute;
+
+  width: 100%;
   height: 100%;
   display: flex;
   will-change: transform, opacity;

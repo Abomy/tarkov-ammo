@@ -31,7 +31,7 @@ export async function getStaticProps() {
 export default function Home({ Ammo, Weapons }: AmmoProps) {
   const search = useContext(SearchContext);
 
-  const filteredAmmo = filterBySearch(search.query, Ammo);
+  const filteredAmmo = filterItems(search, Ammo);
 
   return (
     <>
@@ -49,11 +49,20 @@ export default function Home({ Ammo, Weapons }: AmmoProps) {
   );
 }
 
-function filterBySearch(query: string, ammo: Ammo[]): Ammo[] {
+function filterItems(search: any, ammo: Ammo[]): Ammo[] {
+  const { query, filters } = search;
+
+  let filteredAmmo = [];
   if (query != "") {
     const lower = query.toLowerCase();
-    return ammo.filter((bullet) => bullet.name.toLowerCase().includes(lower));
+    filteredAmmo = ammo.filter((bullet) =>
+      bullet.name.toLowerCase().includes(lower)
+    );
   }
+
+  // if (filters.count > 0) {
+  //   filters.forEach((filter: string) => {});
+  // }
 
   return ammo;
 }

@@ -27,26 +27,36 @@ export const OnTop = styled.div`
 
 export const DrawerItemContainer = styled.div`
   margin-top: 0.5em;
-  background-color: red;
 `;
 export const DrawerHeader = styled.div`
-  background-color: red;
+  border: solid 2px #98989858;
+  border-radius: 8px;
   color: #ffffff;
   padding: 5px;
+  font-size: 0.8em;
   display: flex;
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
 `;
+export const DrawerLabel = styled.label`
+  font-size: 0.8em;
+  padding-top: 15px;
+  padding-bottom: 4px;
+  padding-left: 0.4em;
 
-export const DrawerItemIcon = styled.div``;
+  border-bottom: solid 2px #98989858;
+`;
+export const DrawerItemIcon = styled.div`
+  padding-top: 2px;
+`;
 
 export const DrawerItemContent = styled.div`
   font-size: 0.5em;
-  background-color: black;
+  margin-left: 10px;
+  margin-right: 10px;
   overflow: hidden;
+  border-left: solid 2px #98989858;
 `;
 
-export const DrawerItemInner = styled.div`
-  padding: 20px 5px;
-`;
+export const DrawerItemInner = styled.div``;
