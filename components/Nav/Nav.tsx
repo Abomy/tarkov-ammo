@@ -1,10 +1,3 @@
-import styled from "styled-components";
-import {
-  SearchBox,
-  SearchContainer,
-  SearchIcon,
-} from "../Fields/SearchBox.styled";
-import { FaSearch } from "react-icons/fa";
 import { useContext, useState } from "react";
 import SearchContext from "../../context/searchContext";
 import { MenuContainer, MenuIcon, NavContainer, NavTtitle } from "./Nav.styled";
@@ -38,16 +31,3 @@ const Nav = () => {
 };
 
 export default Nav;
-
-{
-  /* <SearchContainer>
-<SearchBox
-  value={query}
-  onChange={(e) => onQueryChange(e.target.value)}
-/>
-
-<SearchIcon>
-  <FaSearch color="grey" />
-</SearchIcon>
-</SearchContainer> */
-}
