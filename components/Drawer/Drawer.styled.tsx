@@ -15,7 +15,7 @@ export const DrawerCard = styled.div`
   overflow-y: scroll;
 
   &::-webkit-scrollbar {
-    width: 0.2em;
+    width: 0.1em;
   }
 
   &::-webkit-scrollbar-track {
@@ -43,6 +43,7 @@ export const DrawerItemContainer = styled.div`
   margin-top: 0.5em;
 `;
 export const DrawerHeader = styled.div`
+  user-select: none;
   border: solid 2px #98989858;
   border-radius: 8px;
   color: #ffffff;

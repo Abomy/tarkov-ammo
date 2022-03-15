@@ -24,15 +24,6 @@ export const Title = styled.div`
   word-break: break-word;
 `;
 
-export const InfoTitle = styled.div`
-  padding-top: 1em;
-  padding-bottom: 1em;
-  text-decoration: underline;
-  text-align: left;
-  margin: 0 auto;
-  font-weight: 700;
-`;
-
 export const TitleContainer = styled.div`
   padding: 0.4em;
   display: flex;
@@ -57,8 +48,40 @@ export const InfoContainer = styled.div`
   will-change: transform, opacity;
 
   flex-direction: column;
-  padding: 0em 0.4em 0.4em 0.4em;
+  padding: 18px;
+`;
+
+export const InfoTitle = styled.div`
+  padding-top: 1em;
+  padding-bottom: 0.3em;
+  text-align: left;
+  margin: 0 auto;
+  font-weight: 700;
 `;
 export const InfoRow = styled.div`
   color: #fff;
+`;
+
+export const InfoTabContainer = styled.div`
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+`;
+
+export const InfoTabSelection = styled.div`
+  position: relative;
+  height: 4px;
+  width: 80%;
+  margin: 0 auto;
+  border: 3px solid grey;
+  border-radius: 25px;
+`;
+export const InfoTabSelected = styled(InfoTabSelection)`
+  position: absolute;
+  border: 3px solid black;
+  width: 50%;
+  top: -3px;
+  left: -3px;
+  opacity: 0.8;
 `;

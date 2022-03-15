@@ -9,6 +9,9 @@ import {
   InfoTitle,
   InfoContainer,
   InfoRow,
+  InfoTabContainer,
+  InfoTabSelection,
+  InfoTabSelected,
 } from "./Card/Card.styled";
 import { Spacer } from "./Spacer.styled";
 import Trade, { Traders } from "./Trade";
@@ -20,6 +23,7 @@ interface Props {
 
 const AmmoCard = ({ data }: Props) => {
   const [flipped, setFlipped] = useState(false);
+  const [inital, setInitial] = useState(true);
 
   const { transform, opacity } = useSpring({
     opacity: flipped ? 1 : 0,
@@ -27,8 +31,15 @@ const AmmoCard = ({ data }: Props) => {
     config: { mass: 5, tension: 500, friction: 80 },
   });
 
+  const moveSelected = useSpring({
+    pause: inital,
+    transform: `translateX(${flipped ? 53 : 0}%)`,
+    config: { mass: 5, tension: 500, friction: 80 },
+  });
+
   const handleClick = () => {
     setFlipped(!flipped);
+    if (inital) setInitial(false);
   };
 
   return (
@@ -38,10 +49,17 @@ const AmmoCard = ({ data }: Props) => {
           <Image src={data.image} alt="item image" />
           <Title>{data.name}</Title>
         </TitleContainer>
-
+        <InfoTabContainer>
+          <InfoTitle>Info </InfoTitle>
+          <InfoTitle>Basllistics </InfoTitle>
+        </InfoTabContainer>
+        <InfoTabSelection>
+          <a.div style={moveSelected}>
+            <InfoTabSelected />
+          </a.div>
+        </InfoTabSelection>
         <a.div style={{ opacity: opacity.to((o) => 1 - o), transform }}>
           <InfoContainer>
-            <InfoTitle>Info </InfoTitle>
             <InfoRow>{data.caliber && "Caliber: " + data.caliber}</InfoRow>
             <InfoRow>
               Tracer:
@@ -60,7 +78,6 @@ const AmmoCard = ({ data }: Props) => {
           }}
         >
           <InfoContainer>
-            <InfoTitle>Basllistics </InfoTitle>
             {data.ballistics && listBallistics(data.ballistics)}
           </InfoContainer>
         </a.div>
