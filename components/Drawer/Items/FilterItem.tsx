@@ -3,11 +3,20 @@ import {
   FilterItemContainer,
 } from "./FilterItem.styled";
 
-const FilterDropDown = () => {
+interface DropDownProps {
+  items?: string[];
+  callback?: () => {};
+}
+const FilterDropDown = ({ items, callback }: DropDownProps) => {
   return (
     <FilterDropDownContainer>
-      <FilterItemContainer>M4</FilterItemContainer>
-      <FilterItemContainer>M16</FilterItemContainer>
+      {items ? (
+        items?.map((item) => {
+          return <FilterItemContainer key={item}>{item}</FilterItemContainer>;
+        })
+      ) : (
+        <FilterItemContainer>No items :(</FilterItemContainer>
+      )}
     </FilterDropDownContainer>
   );
 };

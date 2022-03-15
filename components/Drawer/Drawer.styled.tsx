@@ -12,6 +12,20 @@ export const DrawerCard = styled.div`
   font-size: 25px;
   padding: 10px;
   z-index: 100;
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    width: 0.2em;
+  }
+
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
 `;
 
 export const DrawerContainer = styled.div`

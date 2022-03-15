@@ -1,6 +1,11 @@
 import * as React from "react";
 import { useSpring, animated } from "react-spring";
 import { useOutsideAlerter } from "../../events/OutsideAlert";
+import {
+  getWeaponArray,
+  getWeaponFilters,
+  getCaliberArray,
+} from "../../processors/Filters";
 import SearchBox from "../Fields/SearchBox";
 import { SearchBoxLabel, SearchContainer } from "../Fields/SearchBox.styled";
 import { DrawerCard, DrawerContainer, DrawerLabel } from "./Drawer.styled";
@@ -28,12 +33,20 @@ const Drawer = ({ show, handler, search, query }) => {
             <SearchBox callback={(e) => search(e.target.value)} />
           </SearchContainer>
           <DrawerLabel>Filters</DrawerLabel>
+
           <DrawerItem title="Caliber">
-            <FilterItem />
+            <FilterItem items={getCaliberArray()} />
           </DrawerItem>
-          <DrawerItem title="Weapon">
-            <FilterItem />
-          </DrawerItem>
+
+          {getWeaponFilters().map((weaponFilter) => {
+            const list = getWeaponArray(weaponFilter.filterKey);
+            console.log(list);
+            return (
+              <DrawerItem key={weaponFilter.title} title={weaponFilter.title}>
+                <FilterItem items={list} />
+              </DrawerItem>
+            );
+          })}
         </DrawerContainer>
       </DrawerCard>
     </animated.div>

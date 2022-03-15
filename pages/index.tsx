@@ -52,12 +52,9 @@ export default function Home({ Ammo, Weapons }: AmmoProps) {
 function filterItems(search: any, ammo: Ammo[]): Ammo[] {
   const { query, filters } = search;
 
-  let filteredAmmo = [];
   if (query != "") {
     const lower = query.toLowerCase();
-    filteredAmmo = ammo.filter((bullet) =>
-      bullet.name.toLowerCase().includes(lower)
-    );
+    ammo = ammo.filter((bullet) => bullet.name.toLowerCase().includes(lower));
   }
 
   // if (filters.count > 0) {
