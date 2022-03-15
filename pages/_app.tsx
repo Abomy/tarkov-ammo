@@ -9,7 +9,9 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <>
-      <SearchContext.Provider value={{ query, onQueryChange: updateQuery }}>
+      <SearchContext.Provider
+        value={{ query, onQueryChange: updateQuery, filters: [] }}
+      >
         <Nav></Nav>
         <Component {...pageProps} />
       </SearchContext.Provider>
