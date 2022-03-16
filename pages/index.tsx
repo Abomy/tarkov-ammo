@@ -3,7 +3,7 @@ import AmmoList from "../public/ammo.json";
 import WeaponList from "../public/weapons.json";
 import AmmoCard from "../components/AmmoCard";
 import { useContext, useState } from "react";
-import SearchContext from "../context/searchContext";
+import SearchContext, { SearchInterface } from "../context/searchContext";
 import WeaponCard from "../components/WeaponCard";
 import { Weapon } from "../interfaces/weapon";
 
@@ -49,17 +49,19 @@ export default function Home({ Ammo, Weapons }: AmmoProps) {
   );
 }
 
-function filterItems(search: any, ammo: Ammo[]): Ammo[] {
+function filterItems(search: SearchInterface, ammo: Ammo[]): Ammo[] {
   const { query, filters } = search;
 
+  if (filters.length > 0) {
+    ammo = ammo.reduce((previousAmmo, ammo) => {
+      if (filters.includes(ammo.caliber)) return [...previousAmmo, ammo];
+      return previousAmmo;
+    }, new Array<Ammo>());
+  }
   if (query != "") {
     const lower = query.toLowerCase();
     ammo = ammo.filter((bullet) => bullet.name.toLowerCase().includes(lower));
   }
-
-  // if (filters.count > 0) {
-  //   filters.forEach((filter: string) => {});
-  // }
 
   return ammo;
 }

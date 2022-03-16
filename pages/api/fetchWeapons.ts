@@ -43,7 +43,6 @@ function getType(name: string): string {
     "Shotgun",
     "Submachine",
   ];
-  console.log(name);
 
   let ret = "Undefined";
 

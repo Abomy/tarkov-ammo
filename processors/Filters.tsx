@@ -40,3 +40,10 @@ export const getCaliberArray = (): string[] => {
     return [...filterCaliber, ammo.caliber];
   }, new Array<string>()).sort();
 };
+
+//TODO: need to find a way to link guns to their caliber
+// export const getWeaponCaliber = (weapon:string) =>{
+//   WeaponsList.forEach(weapon=>{
+//     if(weapon.)
+//   })
+// }

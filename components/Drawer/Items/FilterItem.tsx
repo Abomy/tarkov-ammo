@@ -1,7 +1,9 @@
+import { useState } from "react";
 import {
   FilterDropDownContainer,
   FilterItemContainer,
 } from "./FilterItem.styled";
+import FilterItemRow from "./FilterItemRow";
 
 interface DropDownProps {
   items?: string[];
@@ -12,7 +14,7 @@ const FilterDropDown = ({ items, callback }: DropDownProps) => {
     <FilterDropDownContainer>
       {items ? (
         items?.map((item) => {
-          return <FilterItemContainer key={item}>{item}</FilterItemContainer>;
+          return <FilterItemRow key={item + "-row"} text={item} />;
         })
       ) : (
         <FilterItemContainer>No items :(</FilterItemContainer>

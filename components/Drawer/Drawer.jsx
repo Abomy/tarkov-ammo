@@ -40,7 +40,6 @@ const Drawer = ({ show, handler, search, query }) => {
 
           {getWeaponFilters().map((weaponFilter) => {
             const list = getWeaponArray(weaponFilter.filterKey);
-            console.log(list);
             return (
               <DrawerItem key={weaponFilter.title} title={weaponFilter.title}>
                 <FilterItem items={list} />
