@@ -49,6 +49,7 @@ export default function Home({ Ammo, Weapons }: AmmoProps) {
   );
 }
 
+//Filters the ammo by the supplied query and/or filters
 function filterItems(search: SearchInterface, ammo: Ammo[]): Ammo[] {
   const { query, filters } = search;
 
