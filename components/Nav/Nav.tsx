@@ -1,7 +1,15 @@
 import { useContext, useState } from "react";
 import SearchContext from "../../context/searchContext";
-import { MenuContainer, MenuIcon, NavContainer, NavTtitle } from "./Nav.styled";
+import {
+  MenuContainer,
+  MenuIcon,
+  NavContainer,
+  NavGrid,
+  NavTtitle,
+} from "./Nav.styled";
 import Drawer from "../Drawer/Drawer";
+import { FilterDisplayContainer } from "./FilterDisplay";
+import FilterDisplay from "./FilteredDisplay.styled";
 
 const Nav = () => {
   const { query, onQueryChange } = useContext(SearchContext);
@@ -13,8 +21,8 @@ const Nav = () => {
   };
 
   return (
-    <>
-      <NavContainer>
+    <NavContainer>
+      <NavGrid>
         <MenuContainer>
           <MenuIcon onClick={handleToggleDrawer} />
         </MenuContainer>
@@ -25,8 +33,9 @@ const Nav = () => {
           search={onQueryChange}
           query={query}
         />
-      </NavContainer>
-    </>
+      </NavGrid>
+      <FilterDisplay />
+    </NavContainer>
   );
 };
 

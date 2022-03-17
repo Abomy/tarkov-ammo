@@ -42,6 +42,7 @@ const AmmoCard = ({ data }: Props) => {
         >
           <CardContainer rows={getAmmoBallistics(data.ballistics)} />
         </a.div>
+
         <CardTraders trades={data.trades} />
       </Card>
     </div>

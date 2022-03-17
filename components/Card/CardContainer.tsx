@@ -7,14 +7,12 @@ interface CardContainerProps {
 
 const CardContainer = ({ rows, children }: CardContainerProps) => {
   return (
-    <>
-      <InfoContainer>
-        {rows.map((row, index) => {
-          return <InfoRow key={index}>{row}</InfoRow>;
-        })}
-        {children}
-      </InfoContainer>
-    </>
+    <InfoContainer>
+      {rows.map((row, index) => {
+        return <InfoRow key={index}>{row}</InfoRow>;
+      })}
+      {children}
+    </InfoContainer>
   );
 };
 

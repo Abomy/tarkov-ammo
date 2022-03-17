@@ -1,5 +1,5 @@
 import { Trade as TradeObject } from "../../interfaces/ammo";
-import Trade, { Traders } from "../Trade";
+import Trade, { Traders } from "./Trade";
 
 interface CardTradersProps {
   trades: TradeObject[];
@@ -8,14 +8,12 @@ interface CardTradersProps {
 
 const CardTraders = ({ trades, children }: CardTradersProps) => {
   return (
-    <>
-      <Traders>
-        {trades.map((trade) => {
-          return <Trade key={trade.source} data={trade} />;
-        })}
-        {children}
-      </Traders>
-    </>
+    <Traders>
+      {trades.map((trade) => {
+        return <Trade key={trade.source} data={trade} />;
+      })}
+      {children}
+    </Traders>
   );
 };
 

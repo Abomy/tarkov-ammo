@@ -12,11 +12,12 @@ export const NavContainer = styled.div`
   top: 0;
   width: 100%;
   z-index: 99;
+`;
 
+export const NavGrid = styled.div`
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
 `;
-
 export const NavTtitle = styled.div`
   align-self: center;
   text-align: center;

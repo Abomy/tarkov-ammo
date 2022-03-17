@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Trade } from "../interfaces/ammo";
+import { Trade } from "../../interfaces/ammo";
 import Image from "next/image";
 
 export const Traders = styled.div`
@@ -23,7 +23,6 @@ const ToolTip = styled.span`
   left: 50%;
   margin-left: -30px;
 
-  /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 999;
   transition: opacity 300ms;
