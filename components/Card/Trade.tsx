@@ -1,12 +1,14 @@
 import styled from "styled-components";
-import { Trade } from "../interfaces/ammo";
+import { Trade } from "../../interfaces/ammo";
 import Image from "next/image";
 
 export const Traders = styled.div`
   display: flex;
   justify-content: end;
   padding-top: 1rem;
-  margin-top: auto;
+  bottom: 0.4em;
+  position: absolute;
+  right: 0.4em;
 `;
 
 const ToolTip = styled.span`
@@ -17,13 +19,12 @@ const ToolTip = styled.span`
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
-  top: 100%;
+  bottom: 110%;
   left: 50%;
   margin-left: -30px;
 
-  /* Position the tooltip text - see examples below! */
   position: absolute;
-  z-index: 1;
+  z-index: 999;
   transition: opacity 300ms;
 `;
 

@@ -1,23 +1,15 @@
 import React from "react";
-import styled from "styled-components";
 import { Weapon } from "../interfaces/weapon";
-import Card, { Image } from "./Card/Card.styled";
-
-const InfoContainer = styled.div`
-  margin-top: 1rem;
-  display: flex;
-  flex-direction: column;
-`;
-const InfoRow = styled.div`
-  color: #fff;
-`;
-
+import Card from "./Card/Card";
+import { Image, Title, TitleContainer } from "./Card/Card.styled";
 interface Props {
   data: Weapon;
 }
 const WeaponCard = ({ data }: Props) => (
   <Card>
-    <InfoRow>{data.name} </InfoRow>
+    <TitleContainer>
+      <Title>{data.name}</Title>
+    </TitleContainer>
     <Image src={data.image} alt="item image" />
   </Card>
 );

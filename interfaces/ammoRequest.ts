@@ -11,6 +11,7 @@ export interface Data {
 export interface ItemsByType {
   id: string;
   name: string;
+  shortName: string;
   gridImageLink: string;
   buyFor?: BuyFor[];
 }

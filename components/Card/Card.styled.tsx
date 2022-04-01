@@ -1,75 +1,87 @@
-import React from "react";
 import styled from "styled-components";
 
-const StyledContainer = styled.div`
-  border-radius: 5px;
-  border: 1px solid #989898;
-  padding: 1rem;
-  background: linear-gradient(45deg, #0f202d, #09141c);
-  margin: 0.5rem 0.5rem 0rem 0rem;
-  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
-    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
-  flex-grow: 4;
-  display: flex;
-  flex-direction: column;
-  width: 90vw;
-
-  @media only screen and (min-width: 420px) {
-    width: auto;
-  }
-`;
-
-const StyledContainerBack = styled.div`
-  border-radius: 5px;
-  border: 1px solid #989898;
-  padding: 1rem;
-  background: linear-gradient(45deg, #0f202d, #09141c);
-  margin: 0.5rem 0.5rem 0rem 0rem;
-  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
-    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
-  flex-grow: 4;
-  display: flex;
-  flex-direction: column;
-  transition: all 0.5s;
-  width: 90vw;
-  @media only screen and (min-width: 420px) {
-    width: auto;
-  }
+export const StyledContainer = styled.div`
+  user-select: none;
+  position: relative;
+  background-color: #313131;
+  border-radius: 10px;
+  min-height: 360px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  opacity: 0.95;
 `;
 
 export const Title = styled.div`
-  text-align: center;
-  color: #fff;
-  font-weight: 600;
-  padding-left: 0.8rem;
-  font-size: 1.2rem;
-`;
-export const InfoTitle = styled.div`
-  text-align: left;
-  text-decoration: underline;
-  color: #fff;
-  font-weight: 600;
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
+  color: white;
+  margin-left: 0.3em;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  text-shadow: 1px 1px black;
+  align-items: center;
+  font-weight: 700;
+  word-break: break-word;
 `;
 
 export const TitleContainer = styled.div`
+  padding: 0.4em;
   display: flex;
+  background-color: #494848;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 10px 10px 0px 0px;
 `;
 
 export const Image = styled.img`
-  border: 1px solid #989898;
+  border-radius: 5px;
+  border: 2px solid #5f5f5f;
 `;
 
-interface CardProps {
-  children: any;
-}
+export const InfoContainer = styled.div`
+  position: absolute;
 
-const Card = ({ children }: CardProps) => (
-  <StyledContainer>{children}</StyledContainer>
-);
-export const CardBack = ({ children }: CardProps) => (
-  <StyledContainerBack>{children}</StyledContainerBack>
-);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  will-change: transform, opacity;
 
-export default Card;
+  flex-direction: column;
+  padding: 18px;
+`;
+
+export const InfoTitle = styled.div`
+  padding-top: 1em;
+  padding-bottom: 0.3em;
+  text-align: left;
+  margin: 0 auto;
+  font-weight: 700;
+`;
+export const InfoRow = styled.div`
+  color: #fff;
+`;
+
+export const InfoTabContainer = styled.div`
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+`;
+
+export const InfoTabSelection = styled.div`
+  position: relative;
+  height: 4px;
+  width: 80%;
+  margin: 0 auto;
+  border: 3px solid grey;
+  border-radius: 25px;
+`;
+export const InfoTabSelected = styled(InfoTabSelection)`
+  position: absolute;
+  border: 3px solid black;
+  width: 50%;
+  top: -3px;
+  left: -3px;
+  opacity: 0.8;
+`;

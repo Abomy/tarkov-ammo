@@ -1,32 +1,42 @@
 import styled from "styled-components";
 
 export const SearchContainer = styled.div`
-  display: inline;
+  align-self: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5px;
+`;
+
+export const SearchBoxLabel = styled.label`
+  font-size: 0.8em;
+  padding-bottom: 3px;
+  padding-left: 0.4em;
+`;
+
+export const SearchBoxContainer = styled.div`
   width: 100%;
   position: relative;
-  @media (min-width: 600px) {
-    width: 50%;
-  }
+  display: flex;
+  height: 1em;
 `;
-export const SearchBox = styled.input`
-  border: 1px solid rgb(255, 255, 255, 0.4);
-  border-radius: 50px;
-  height: 100%;
+export const SearchBoxInput = styled.input`
+  padding-right: 0px;
+  height: 2em;
+  font-size: 0.6em;
+  padding-left: 0.5em;
   width: 100%;
-  background: #123149;
-  padding-left: 15px;
-  color: #fff;
-  outline: none;
-  :focus {
-    border: 1px solid rgb(255, 255, 255, 1);
-  }
-  @media (min-width: 600px) {
-    width: 50%;
-  }
+  border-radius: 15px;
+  color: white;
+  background-color: transparent;
+  border: solid 2px #98989858;
 `;
 
 export const SearchIcon = styled.div`
   position: absolute;
-  top: 8px;
-  right: 10px;
+  right: 0.01em;
+  top: 1px;
+  right: 3px;
+  padding-left: 0.2em;
+  transform: scale(0.7);
 `;

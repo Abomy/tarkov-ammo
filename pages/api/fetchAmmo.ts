@@ -40,12 +40,27 @@ const caliberAlias = {
     '23x75mm "Shrapnel-10" buckshot',
     '23x75mm "Shrapnel-25" buckshot',
   ],
-  "5.56x45mm": ["5.56x45mm MK 255 Mod 0 ()", "5.56x45mm MK 318 Mod 0 ()"],
+  "5.56x45mm": [
+    "5.56x45mm MK 255 Mod 0 ()",
+    "5.56x45mm MK 318 Mod 0 ()",
+    "5.56x45mm ddon",
+  ],
   "7.62x25": ["7.62x25mm TT"],
   "7.62x39mm": ["7.62x39mm gzh"],
-  "7.62x51mm": ["7.62x51mm Tracer"],
-  "7.62x54mm": ["7.62x54mm R"],
-  "9x18mm": ["9x18mm PM", "9x18mm PMM"],
+  "7.62x51mm": ["7.62x51mm Tracer", "7.62x51mm Tracer"],
+  "7.62x54mm": ["7.62x54mm R", "7.62x54mm R gzh", "7.62x54mm R gs"],
+  "9x18mm": [
+    "9x18mm PM",
+    "9x18mm PMM",
+    "9x18mm M P gzh",
+    "9x18mm PM gs",
+    "9x18mm PM gzh",
+    "9x18mm PM PS gs PPO",
+    "9x18mm PMM gzh",
+  ],
+  "9x19mm": ["9x19mm gzh"],
+  "9x21mm": ["9x21mm gzh"],
+  "9x39mm": ["9x39mm gs"],
 } as { [key: string]: string[] };
 
 const ballisticsFile = "./public/ballistics.json";
@@ -123,7 +138,7 @@ function findCleanCaliber(dirty: string): string {
   for (const key in caliberAlias) {
     if (
       Object.prototype.hasOwnProperty.call(caliberAlias, key) &&
-      caliberAlias[key].includes(dirty)
+      dirty.toLowerCase().includes(key.toLowerCase())
     ) {
       return key;
     }
